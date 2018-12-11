@@ -59,7 +59,7 @@ statistics. A realworld data science
 problem will be revealed on Saturday, May 18, 2019, and teams work on
 the spot to find a solution. A review panel will select a few
 finalists to present in the first afternoon session, and the winners
-will receive their award at the closing ceremony. Team registration
+will receive their awards at the closing ceremony. Team registration
 will be closed on Monday, May 6, 2019.
 
 ## Chernoff Lecture
@@ -95,5 +95,6 @@ Hartford/Springfield (BDL).
 # Local Organizers
 The Symposium local hosts and organizers from the University of
 Connecticut are Haim Bar, Jun Yan (chair), and HaiYing Wang.
-More updates will be posted on our webpage as they become available.  
-Questions are addressed to Jun Yan at jun.yan@uconn.edu.
+More updates will be posted on our webpage as they become
+available. Questions are addressed to Jun Yan at jun.yan@uconn.edu.
+
