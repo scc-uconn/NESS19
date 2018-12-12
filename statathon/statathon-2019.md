@@ -23,8 +23,8 @@ NextGen is a newly-formed committee within NESS supporting the next generation o
 
 # Timeline
 
-* May 1-6, 2019: team online registration opens until a cap is reached; each team should submit only one registration form with all names of the team members.
-* May 16, 2019: data sets released online with instructions (need details), and teams start to work to find solutions. 
+* May 1-6, 2019: team online registration opens until a cap is reached; each team should submit only one registration form with all names of the team members. 
+* May 16, 2019: data sets released online with instructions (need details), and teams start to work to find solutions. (Maybe we need to release the data even early so that we can have a final list early so that we can tell them to come and present. )
 * May 18, 2019: team presents to the review panel in the first afternoon session, and winners will receive their awards at the closing ceremony (We need to decide whether all participating teams will present or we pre-select a finalist to come and present. We plant to let the Statathon participants to attend the NESS for free, so we need an idea about the number of people in order to prepare for food.)
 
 # Theme (Data sets will be provided by Tyler Kleycamp, Chief Data Officer, Office of Policy and Management)
@@ -62,7 +62,8 @@ We need to identify a review panel
 
 ## Budget
 
-Food for all registered participants. 
+- Food for all registered participants or finalist.
+- Discount or free ticket for short course to the finalist?
 
 ## FAQ
 
