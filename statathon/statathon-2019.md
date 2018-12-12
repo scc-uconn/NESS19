@@ -68,6 +68,6 @@ Food for all registered participants.
 
 TBD (following other hackathons)
 
-# NESS Statathon sub-Committee
+# NESS Statathon subcommittee
 
-Haim Bar; Kun Chen; Tyler Kleykamp; Elizabeth Schifano; HaiYing Wang; Jun Yan
+ Tyler Kleykamp; Dooti Roy; Gregory Vaughan; HaiYing Wang
