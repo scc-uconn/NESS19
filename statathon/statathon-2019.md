@@ -1,9 +1,9 @@
----
-title: "Strategic Plan for Statathon 2019"
-author: "Statathon<sup>TM</sup> 2019 Committee"
-date: "May 15-17, 2019"
-output: html_document
----
+<!-- --- -->
+<!-- title: "Strategic Plan for Statathon 2019" -->
+<!-- author: "Statathon<sup>TM</sup> 2019 Committee" -->
+<!-- date: "May 15-17, 2019" -->
+<!-- output: html_document -->
+<!-- --- -->
 
 <span style="font-family:Papyrus; font-size:1.5em;">
 The first Statathon will be held jointly by UConn Statistics Department and NESS NextGen during the 33rd New England Statistics Symposium on May 15--17, 2019. 
