@@ -1,11 +1,13 @@
 ---
 title: "Strategic Plan for Statathon 2019"
 author: "Statathon<sup>TM</sup> 2019 Committee"
-date: "May 16-18, 2019"
+date: "May 15-17, 2019"
 output: html_document
 ---
 
+<span style="font-family:Papyrus; font-size:1.5em;">
 The first Statathon will be held jointly by UConn Statistics Department and NESS NextGen during the 33rd New England Statistics Symposium on May 15--17, 2019. 
+</span>
 
 # Introduction
 
@@ -23,7 +25,7 @@ NextGen is a newly-formed committee within NESS supporting the next generation o
 
 ## Timeline
 
-* 02/26/2019: team online registration opens, data sets released online with instructions.
+* 02/26/2019: team [online registration](link to google form) opens, data sets released online with instructions.
 <!-- , and teams start to work to find solutions.  -->
 * 04/26/2019: deadline for teams to submit their work for the panelist to review; online registration will be closed at the end of the day.
 * 05/03/2019: finalist teams are selected and notified.
@@ -39,7 +41,17 @@ There are two themes for this Statathon. You may choose one that is interesting 
 <!-- There are a variety of data source that depict the population of Connecticut and various migration trends both in and out of the state. Often these data do not paint the complete picture of Connecticut’s population and migration trends. Beyond simply understanding migration trends, what else might be influencing people to stay, leave, or move to Connecticut? What is the impact, either positive or negative of these changes? -->
 
 ## Theme 1: Housing
-Access to affordable housing has a significant impact on Connecticut’s economy and ability to attract and retain people. In addition, as a result of the great recession, many homeowners have not realized an appreciation in equity that is typically realized from owning a home. How can we better understand the impacts of the accessibility and affordability of housing? What is the impact on Connecticut’s economy? How can we help identify affordable and accessible places to live?
+<!-- Access to affordable housing has a significant impact on Connecticut’s economy and ability to attract and retain people. In addition, as a result of the great recession, many homeowners have not realized an appreciation in equity that is typically realized from owning a home. How can we better understand the impacts of the accessibility and affordability of housing? What is the impact on Connecticut’s economy? How can we help identify affordable and accessible places to live? -->
+
+Housing has a significant impact on Connecticut’s economy and ability to attract and retain people. In addition, as a result of the great recession, many homeowners have not realized an appreciation in equity that is typically realized from owning a home. How can we better understand the impacts of the accessibility and affordability of housing? What is the impact on Connecticut’s economy? How can we help identify affordable and accessible places to live? What factors might affect housing prices? 
+
+Challenge: Using the primary dataset below, combine it with additional data sources to find interesting insights, trends, correlations, relationships, or patterns in housing in Connecticut.
+
+Primary dataset: [Real estate sales data provided by the State of Connecticut](https://data.ct.gov/Housing-and-Development/Real-Estate-Sales-2001-2016/5mzw-sjtu).
+
+Other datasets to consider:
+[Mill Rates (tax rates)](https://data.ct.gov/browse?tags=mill+rates); 
+[Affordable Housing](https://data.ct.gov/Housing-and-Development/Affordable-Housing-by-Town-2011-Present/3udy-56vi)
 
 (Data sets are provided by Tyler Kleycamp, Chief Data Officer, Office of Policy and Management)
 
@@ -49,15 +61,16 @@ Access to affordable housing has a significant impact on Connecticut’s economy
 
 ## Registration 
 
-All teams should register online. 
+All teams should register online [here](link to google form). 
 <!-- Online; to be developed similar to the conference pages or use Google Form. -->
 Each team may have up to four team members, and only one registration form should be submit by each team with all names of the team members. 
-If you do not have a team but want to be a part of one, then indicate that in the registration form and the organizers will try to match you up with similar participants. (WHY: we need to ask their theme preference in registration in order to match teams. Another option is to provide a forum for participants to share their information and form their teams. I am not sure if this has technical difficult or has any privacy issue or not.)
+If you do not have a team but want to be a part of one, then indicate that in the registration form and the organizers will try to match you up with similar participants. 
+<!-- (WHY: we need to ask their theme preference in registration in order to match teams. Another option is to provide a forum for participants to share their information and form their teams. I am not sure if this has technical difficult or has any privacy issue or not.) -->
 
 ## Report submission
 
 All teams should submit their work by the deadline (04/26/2019). 
-Each team should submit a report along with other produce such as program codes used in the analysis, software products, links to other data sources if used, etc. It is preferred that report is in the format of presentation slides. Teams are encouraged to create a Git Repository (e.g., [Bitbucket](	bitbucket.org), [GitHub](github.com)) to host their source codes and data information. However, this is not a review factor in the competition. 
+Each team should submit a report along with other produce such as program codes used in the analysis, software products, links to other data sources if used, etc. It is preferred that report is in the format of presentation slides. Teams are encouraged to create a Git Repository (e.g., [Bitbucket](bitbucket.org), [GitHub](github.com)) to host their source codes and data information. However, this is not a review factor in the competition. 
 
 ## Team presentations
 
@@ -75,26 +88,26 @@ Yan Li
 
 <!-- TBD -->
 
-## Judges
+<!-- ## Judges -->
 
-We need to identify a review panel once the timeline and Logistic are set.
+<!-- We need to identify a review panel once the timeline and Logistic are set. -->
 
-- UConn Entrepreneurship?
-- Industry
-- Government
-- Data provider
-- Sponsor
-- Jeremy Titelbaum?
+<!-- - UConn Entrepreneurship? -->
+<!-- - Industry -->
+<!-- - Government -->
+<!-- - Data provider -->
+<!-- - Sponsor -->
+<!-- - Jeremy Titelbaum? -->
 
-## Budget
+<!-- ## Budget -->
 
-- Food for all registered participants or finalist.
-- Discount or free ticket for short course to the finalist?
+<!-- - Food for all registered participants or finalist. -->
+<!-- - Discount or free ticket for short course to the finalist? -->
 
-## FAQ
+<!-- ## FAQ -->
 
-TBD (following other hackathons)
+<!-- TBD (following other hackathons) -->
 
-# NESS Statathon subcommittee
+# Statathon NESS subcommittee
 
  Tyler Kleykamp; Dooti Roy; Gregory Vaughan; HaiYing Wang
