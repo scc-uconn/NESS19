@@ -25,7 +25,7 @@ NextGen is a newly-formed committee within NESS supporting the next generation o
 
 ## Timeline
 
-* 02/26/2019: team [online registration](link to google form) opens, data sets released online with instructions.
+* 03/04/2019: team [online registration (TBA)](link to google form) opens, data sets released online with instructions.
 <!-- , and teams start to work to find solutions.  -->
 * 04/26/2019: deadline for teams to submit their work for the panelist to review; online registration will be closed at the end of the day.
 * 05/03/2019: finalist teams are selected and notified.
@@ -53,15 +53,17 @@ Other datasets to consider:
 [Mill Rates (tax rates)](https://data.ct.gov/browse?tags=mill+rates); 
 [Affordable Housing](https://data.ct.gov/Housing-and-Development/Affordable-Housing-by-Town-2011-Present/3udy-56vi)
 
-(Data sets are provided by Tyler Kleycamp, Chief Data Officer, Office of Policy and Management)
+(Data sets are provided by Tyler Kleycamp, Chief Data Officer, Office of Policy and Management, State of Connecticut)
 
 ## Theme 2: TBA
 
-# Logistic
+(Data sets are provided by Kathy Ziff, Advanced Analytics Recruiter, Travelers)
+
+# Logistics
 
 ## Registration 
 
-All teams should register online [here](link to google form). 
+All teams should register online [TBA](link to google form). 
 <!-- Online; to be developed similar to the conference pages or use Google Form. -->
 Each team may have up to four team members, and only one registration form should be submit by each team with all names of the team members. 
 If you do not have a team but want to be a part of one, then indicate that in the registration form and the organizers will try to match you up with similar participants. 
@@ -70,7 +72,7 @@ If you do not have a team but want to be a part of one, then indicate that in th
 ## Report submission
 
 All teams should submit their work by the deadline (04/26/2019). 
-Each team should submit a report along with other produce such as program codes used in the analysis, software products, links to other data sources if used, etc. It is preferred that report is in the format of presentation slides. Teams are encouraged to create a Git Repository (e.g., [Bitbucket](bitbucket.org), [GitHub](github.com)) to host their source codes and data information. However, this is not a review factor in the competition. 
+Each team should submit a report along with other produce such as program codes used in the analysis, software products, links to other data sources if used, etc. It is preferred that report is in the format of presentation slides. Teams are encouraged to create a Git Repository (e.g., [Bitbucket](bitbucket.org), [GitHub](github.com)) to host their source codes and data information. However, this is not a review factor in the competition. More details about the online submission will be provided later.
 
 ## Team presentations
 
@@ -110,4 +112,4 @@ Yan Li
 
 # Statathon NESS subcommittee
 
- Tyler Kleykamp; Dooti Roy; Gregory Vaughan; HaiYing Wang
+ Tyler Kleykamp; Dooti Roy; Gregory Vaughan; HaiYing Wang; Kathy Ziff
