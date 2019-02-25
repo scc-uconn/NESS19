@@ -8,9 +8,10 @@ May 15-17, 2019
 
 1. Four short courses on Wednesday, May 15
 2. Stat-a-thon data challenge released
-3. Inaugural Chernoff Awardee to be revealed at the award ceremony on Friday, May 17
-4. Agenda is online
-5. Hotel reservation with special NESS rate is open
+3. Inaugural Chernoff Awardee to be revealed and give Chernoff Lecture on Friday, May 17
+4. Tentative agenda online
+5. Hotel reservation with special NESS rate open
+6. Still accepting invited session proposals
 
 # Introduction
 
@@ -34,8 +35,6 @@ The Chernoff Excellence in Statistics Awards is the most prestigious award besto
 3. (Half-day) Practical visualization for data scientists, by Dr. Xiaoyue Cheng (University of Nebraska at Omaha)
 4. (Half-day) Introduction to Multilevel Modeling, by Dr. Min Zhu (SAS)
 
-
-
 # Call for Participation
 
 ## Invited Sessions
@@ -51,7 +50,6 @@ Students are encouraged to submit posters to the student poster competition (wit
 Students are encouraged to compete in the Stat-a-thon, our exclusive brand name for an event similar to a hackathon but with more focus on statistics. The first data challenge has been released (statathon.stat.uconn.edu). The submission deadline is April 26.
 
 # Important Dates
-Monday, February 18, 2019: short course proposal closes
 Monday, March 18, 2019: invited session proposal closes
 Monday, April 1, 2019: student paper submission closes
 Monday, April 22, 2019: abstract submission closes
@@ -59,12 +57,10 @@ Friday, April 26, 2019: Stat-a-thon data challenge submission closes
 Monday, May 6, 2019: online registration closes
 
 # Agenda
-The short courses will be on Wednesday, May 15, 2019. The three plenary events are the openning keynote session (morning of Thursday, May 16), banquet (dinner of Thursday, May 16), and closing award ceremony (afternoon of Friday, May 17). The agenda of the conference is at https://symposium.nestat.org/program.html.
-
+The short courses will be on Wednesday, May 15, 2019. The three plenary events are the openning keynote session (morning of Thursday, May 16), banquet (dinner of Thursday, May 16), and closing award ceremony (afternoon of Friday, May 17). The agenda of the conference is at https://symposium.nestat.org/program.html
 
 # Venue
 The conference will be held in Hilton Hartford, Connecticut. The nearest airport is the Bradley International Airport of Hartford/Springfield (BDL). We have reserved a block of rooms at the rate of $169/night. The special room rate will be available until April 18th or until the group block is sold out, whichever comes first. To book, please visit https://www.hilton.com/en/hi/groups/personalized/H/HFDHHHF-UNC-20190514/index.jhtml?WT.mc_id=POG.
-
 
 # Local Organization
 The Symposium local hosts and organizers from the University of Connecticut are Haim Bar, Jun Yan (chair), and HaiYing Wang. More updates will be posted on our webpage as they become available. Questions are addressed to Jun Yan at jun.yan@uconn.edu.
