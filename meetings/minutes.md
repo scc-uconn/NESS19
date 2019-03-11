@@ -1,3 +1,12 @@
+## 3/11/2019
+
+Whova demo
+
++ contact info of all participants available to sponsors?
++ support both apple and andro
+
+
+
 ## 3/06/2019
 
 - Rick session: suvernier (Haim)
