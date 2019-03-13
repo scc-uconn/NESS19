@@ -25,7 +25,7 @@ NextGen is a newly-formed committee within NESS supporting the next generation o
 
 ## Timeline
 
-* 03/04/2019: team [online registration (TBA)](link to google form) opens, data sets released online with instructions.
+* 03/04/2019: team [online registration (coming soon)](link to google form) opens, data sets released online with instructions.
 <!-- , and teams start to work to find solutions.  -->
 * 04/26/2019: deadline for teams to submit their work for the panelist to review; online registration will be closed at the end of the day.
 * 05/03/2019: finalist teams are selected and notified.
@@ -106,9 +106,36 @@ Yan Li
 <!-- - Food for all registered participants or finalist. -->
 <!-- - Discount or free ticket for short course to the finalist? -->
 
-<!-- ## FAQ -->
+## FAQ
 
-<!-- TBD (following other hackathons) -->
+Who can participate?
+
+* Students from universities and high schools can participate. We will not distinguish high school students, undergraduate students, and graduate students among participants. 
+
+Do I have to pay to participate?
+
+* No. It is free to participate Statathon. We will select finalist teams to come and present during the last day of NESS conference.  Members of the finalist teams will be registered for the conference for free. However, team members may have to cover their own travel and/or lodging expenses. 
+
+How big can a team be?
+
+* Each team can have up to 4 participants. 
+
+How can I form a team?
+
+* Participants can form teams among peer students with common interests and/or complementary expertise. If you are not able to find a team yourself, don't worry. We will assign teams for participants with out a team. This is an opportunity for you to meet and work with new people. Each participant can be a member of only one team.
+
+When can I start working on the problem?
+
+* You can start your work on the problem now. 
+
+Can I work on both themes?
+
+* Yes, if your whole team wants to work on both themes. Note that each participant can only be in one team, so to work on both themes, the whole team much have an agreement. If you don't have a team, we will assign a team according to your preferred theme which means you may work on only one theme. 
+<!-- It is recommended that each team focuses on one theme to obtain the best  -->
+
+What program language can I use?
+
+* You can use any program language or software packages. 
 
 # Statathon NESS subcommittee
 
