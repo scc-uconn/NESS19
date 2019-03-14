@@ -1,3 +1,26 @@
+## 3/13/2019
+
+Items for Friday
++ network
++ tables (registration and sponsors)
++ poster space
++ sign AV contract
+
+Rick's special session
+
+Sessions reshuffling
+
+Promotion short courses
+
+Sponsor
+
+Registraion folder
+Name Tag
+
+
+Q: is a student in an invited sessions eligible for student paper?
+Q: session mixing (bu has two exclusive sessions)
+
 ## 3/11/2019
 
 Whova demo
