@@ -4,6 +4,7 @@ Items for Friday
 + network
 + tables (registration and sponsors)
 + poster space
++ reception space
 + sign AV contract
 
 Rick's special session
