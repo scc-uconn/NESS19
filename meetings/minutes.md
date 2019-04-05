@@ -1,3 +1,31 @@
+## 4/4/2019
+
++ Flyer on sessions:
+    - data science in action
+	- educational sessions
+	- Rick's session
+
++ Food (head count)
+    - lunches/banquet/reception
+	- menu (Kate)
+	- drink?
+	
++ Wednesday dinner 
+    - 6 + 3 + NESS
+
++ script + thanks
+
++ room assignment
+    - session chairs and abstracts
+
++ registration packet
+    - name tag
+	- schedule
+	- biosketch for keynote
+	- flyers
+	- 2020 ness
+	- Kate?
+
 ## 3/13/2019
 
 Items for Friday
