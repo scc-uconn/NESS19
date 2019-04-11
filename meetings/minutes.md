@@ -1,3 +1,13 @@
+## 4/10/2019
+
+PSAV: need to bring a projector (cable; needs test)
+
+Photographer: 6 hours
+
+CRC books: Hilton address sent to David Grubbs
+
+Announcement: update with Munich Re reception
+
 ## 4/4/2019
 
 + Flyer on sessions:
