@@ -6,18 +6,21 @@ May 15-17, 2019
 
 # Highlighted Updates
 
++ Upcoming deadlines
+    - Monday, April 15: Stat-a-thon team registration closes
+    - Monday, April 22, 2019: abstract submission closes
+    - Friday, April 26, 2019: Stat-a-thon data challenge submission closes
+    - Monday, May 6, 2019: online registration closes
 + Four short courses on Wednesday, May 15 still accepting participants
-+ Abstract submission closes on Monday, April 22
-+ Stat-a-thon data challenge submission due on Friday, April 26
 + Session schedules online
 + Hotel reservation with special NESS rate open (until April 14 or soldout)
 + Updated flyers attached
 + Inaugural Chernoff Awardee to be revealed and give Chernoff Lecture on Friday, May 17
 
 # Introduction
-The Department of Statistics of the University of Connecticut (UConn) is proud to host the 33rd New England Statistics Symposium (NESS) on May 15--17, 2019 at Hilton Hartford. The theme of the conference is ``Statistical Data Science in Action. As an annual event, NESS has been bringing together statisticians from all over New England to a central location to share research, discuss emerging issues in the field, and network with colleagues since it was first started at UConn in 1987. After the establishment of the New England Statistical Society in 2017, we are proud to host the first remodeled NESS and bring it to a new level.
+The Department of Statistics of the University of Connecticut (UConn) is proud to host the 33rd New England Statistics Symposium (NESS) on May 15--17, 2019 at Hilton Hartford. The theme of the conference is Statistical Data Science in Action. As an annual event, NESS has been bringing together statisticians from all over New England to a central location to share research, discuss emerging issues in the field, and network with colleagues since it was first started at UConn in 1987. After the establishment of the New England Statistical Society in 2017, we are proud to host the first expanded NESS and bring it to a new level.
 
-The symposium will be a 3-day event, featuring short-courses, plenary talks, invited sessions, career development panel discussion, student paper competition, student poster competition, stat-a-thon, and Chernoff Lecture. In addition to being a larger scale event, three new features are a banquet address, the stat-a-thon, and the Chernoff Lecture.
+The symposium will be a 3-day event, featuring short-courses, plenary talks, invited sessions, career development panel discussion, student paper competition, student poster competition, stat-a-thon, and Chernoff Lecture.  The banquet address, the stat-a-thon, and the Chernoff Lecture are new features.
 
 # Keynote Addresses
 1. Sam Kou, PhD., Professor and Chair, Department of Statistics, Harvard University: Big Data, Google and Disease Detection: A Statistical Adventure
@@ -59,11 +62,12 @@ Abstracts of contributed posters are to submitted by Monday, April 22. Acceptanc
 Students are encouraged to submit posters to the student poster competition (with a sponsor to be named). Abstracts need to be submitted by Monday, April 22, 2019.
 
 ## Stat-a-thon
-Students are encouraged to compete in the Stat-a-thon, our exclusive brand name for an event similar to a hackathon but with more focus on statistics. Two data challenge have been released (http://statathon.stat.uconn.edu). Individuals looking to be assigned to a team should register before March 25; teams or individual participants should register before April 15. The submission deadline is April 26.
+Students are encouraged to compete in the Stat-a-thon, our exclusive brand name for an event similar to a hackathon but with more focus on statistics. Two data challenges have been released (http://statathon.stat.uconn.edu). Individuals looking to be assigned to a team should register before March 25; teams or individual participants should register before April 15. The submission deadline is April 26.
 
 # Important Dates
 ~~Monday, March 18, 2019: invited session proposal closes~~
 ~~Monday, April 1, 2019: student paper submission closes~~
+Monday, April 15: Stat-a-thon team registration closes
 Monday, April 22, 2019: abstract submission closes
 Friday, April 26, 2019: Stat-a-thon data challenge submission closes
 Monday, May 6, 2019: online registration closes
@@ -72,7 +76,7 @@ Monday, May 6, 2019: online registration closes
 The short courses will be on Wednesday, May 15, 2019. The three plenary events are the opening keynote session (morning of Thursday, May 16), banquet (dinner of Thursday, May 16), and closing award ceremony (afternoon of Friday, May 17). The agenda of the conference is at https://symposium.nestat.org/program.html
 
 # Venue
-The conference will be held in Hilton Hartford, Connecticut. The nearest airport is the Bradley International Airport of Hartford/Springfield (BDL). We have reserved a block of rooms at the rate of $169/night. The special room rate will be available until April 18th or until the group block is sold out, whichever comes first. To book, please visit https://www.hilton.com/en/hi/groups/personalized/H/HFDHHHF-UNC-20190514/index.jhtml?WT.mc_id=POG.
+The conference will be held in Hilton Hartford, Connecticut. The nearest airport is the Bradley International Airport of Hartford/Springfield (BDL). We have reserved a block of rooms at the rate of $169/night. The special room rate will be available until April 14th or until the group block is sold out, whichever comes first. To book, please visit https://www.hilton.com/en/hi/groups/personalized/H/HFDHHHF-UNC-20190514/index.jhtml?WT.mc_id=POG.
 
 In the case the blocked rooms are sold out, an alternative is Red Lion Hotel Hartford (https://www.redlion.com/red-lion-hotel/ct/hartford/red-lion-hotel-hartford), which is about 5-minute walk from Hilton Hartford. We do not, however, have any special agreement with the hotel.
 
