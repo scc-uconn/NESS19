@@ -25,7 +25,7 @@ Small gifts
 
 # Short course
 
-Pre-course materials
+Pre-course materials (one week ahead, May 8)
 
 # Registration (special)
 
@@ -49,4 +49,9 @@ Sponsors
 
 # Script
 
+
+# AV
+
+need departmental projector
+student laptops
 
