@@ -1,4 +1,4 @@
-\documentclass[9pt]{article}
+\documentclass[10pt]{article}
 
 \usepackage{fullpage,amsmath,amssymb,amsfonts,booktabs,float,graphicx,longtable,parskip}
 \usepackage[colorlinks=true, linkcolor=black]{hyperref}
@@ -6,12 +6,15 @@
 \usepackage{pdfpages,graphics}
 \usepackage{booktabs}
 \usepackage{multicol,fullpage}
-\usepackage[margin=2in]{geometry}
+\usepackage[margin=0.7in]{geometry}
 \usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
 \usepackage{textgreek}
 \usepackage{bm}
+
+\usepackage{afterpage,adjustbox}
+\usepackage{url}
 
 \usepackage{enumitem}
 \setlist[enumerate]{leftmargin=*, topsep=0pt,itemsep=2pt,partopsep=0pt,parsep=0pt}
@@ -22,6 +25,8 @@
 \setlength{\columnsep}{2em}
 \setlength{\columnseprule}{0.2pt}
 
+\renewcommand{\UrlBreaks}{\do\/\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X\do\Y\do\Z}
+
 \begin{document}
 
 \addcontentsline{toc}{section}{Cover}
@@ -30,19 +35,27 @@
 \addcontentsline{toc}{section}{Table of Contents}
 {\centering \small \tableofcontents}
 
-\newpage
+\clearpage
 
-\newgeometry{lmargin=0.75in, rmargin=0.75in}
+\newgeometry{margin=0.75in}
 \twocolumn
-\raggedright
+% \raggedright
 
-\section*{\centering Detailed Program}
+\twocolumn[
+\centering {\bf\Huge Detailed Program}
+\bigskip
+]
 \addcontentsline{toc}{section}{Detailed Program}
 \input{out/detailed-program.tex}
 
-\newpage
+\clearpage
 
-\section*{\centering Abstracts of Invited Papers}
+\onecolumn
+
+\twocolumn[
+\centering {\bf\Huge Abstracts of Invited Papers}
+\bigskip
+]
 \addcontentsline{toc}{section}{Abstracts of Invited Papers}
 \input{out/abstracts.tex}
 
