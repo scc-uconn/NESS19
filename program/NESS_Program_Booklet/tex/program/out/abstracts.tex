@@ -75,7 +75,7 @@ DGM: A Deep Learning Algorithm for Solving Partial Differential Equations
 
 \emph{\footnotesize Justin Sirignano (UIUC), Konstantinos Spiliopoulos (Boston University)}
 
-High-dimensional PDEs have been a longstanding computational challenge. We propose to solve high-dimensional PDEs by approximating the solution with a deep neural network which is trained to satisfy the differential operator, initial condition, and boundary conditions. We prove that the neural network converges to the solution of the partial differential equation as the number of hidden units increases. Our algorithm is meshfree, which is key since meshes become infeasible in higher dimensions. Instead of forming a mesh, the neural network is trained on batches of randomly sampled time and space points. We implement the approach for American options (a type of free-boundary PDE which is widely used in finance) in up to 200 dimensions. We call the algorithm a f
+High-dimensional PDEs have been a longstanding computational challenge. We propose to solve high-dimensional PDEs by approximating the solution with a deep neural network which is trained to satisfy the differential operator, initial condition, and boundary conditions. Our algorithm is meshfree, which is key since meshes become infeasible in higher dimensions. Instead of forming a mesh, the neural network is trained on batches of randomly sampled time and space points. The algorithm is tested on a class of high-dimensional free boundary PDEs, which we are able to accurately solve in up to 200 dimensions. The algorithm is also tested on a high-dimensional Hamilton-Jacobi-Bellman PDE and Burgers' equation. The deep learning algorithm approximates the general solution to the Burgers' equation for a continuum of different boundary conditions and physical conditions (which can be viewed as a high-dimensional space). We call the algorithm a ``Deep Galerkin Method (DGM)'' since it is similar in spirit to Galerkin methods, with the solution approximated by a neural network instead of a linear combination of basis functions. In addition, we prove a theorem regarding the approximation power of neural networks for a class of quasilinear parabolic PDEs. Joint work with Justin Sirignano.
 
 \end{itemize}
 
@@ -1282,6 +1282,14 @@ We propose a class of semi-parametric tests for association of rare variants wit
 We demonstrate the carriers-only tests on a genetic analysis of short sleep in ~22,000 individuals from TOPMed. We show that the Score test has high rate of inflation; the SAIGE test, which improves upon the Score test, has also high inflation when the number of carriers is low and when the sample size is small, and is slower than the carriers-only approach. Overall, when there are at least 30 carriers and a moderate sample size, the SAIGE and carriers-only tests have similar performance, with SAIGE often being slightly more powerful, which is expected because carriers-only tests are more robust. 
 
 
+\item \textbf{Iuliana Ionita-Laza}, Columbia University
+
+Integrative Statistical Approaches for the Analysis of Whole-Genome Sequencing Data
+
+\emph{\footnotesize Zihuai He (Stanford University); Bin Xu (Columbia University); Joseph Buxbaum (Icahn School of Medicine at Mount Sinai), Iuliana Ionita-Laza (Columbia University)}
+
+Continuous advances in massively parallel sequencing technologies make large whole-genome sequencing studies increasingly feasible, including the NHLBI Trans-Omics for Precision Medicine (TopMed) and UK Biobank studies. The analysis of such data is challenging due to the large number of rare variants in noncoding regions of the genome, our poor understanding of their functional effects, and the lack of natural units for testing (e.g. the analogue of genes in coding regions). In thistalk I will describe some of our effort to address these challenges using statistical and computational approaches. In particular, I will first discuss an unsupervised approach based on a latent Dirichlet allocation model to predict functional effects of genetic variants in a cell type/tissue specific manner. I will also introduce further extensions to the semi-supervised setting where high-quality experimentally derived labels are available for a small to modest number of variants. I will then discuss GenoScan, a scan statistic approach to simultaneously detect the existence, and estimate the location of the association signal in a pre-specified large region or at genome-wide scale. GenoScan can incorporate multiple functional annotations of genetic variants for improved power to identify the signals in noncoding regions. I will show applications to several datasets, including the Metabochip dataset on 12,281 individuals, and whole-genome sequencing data in the Simons Simplex Collection (SSC).
+
 \item \textbf{Lorin Crawford}, Brown University
 
 Detecting Genetic Interactions with the Marginal Epistasis Test
@@ -2027,6 +2035,14 @@ Investigating dose-response relationships and identifying the appropriate dose f
 \subsubsection*{NESS19-IS-38: Data Science in Action at IBM Chief Analytics Office}
 
 \begin{itemize}
+\item \textbf{Beatriz Etchegaray Garcia}, IBM
+
+Business Metric Forecasting and Analytics for Decision Support
+
+\emph{\footnotesize Beatriz Etchegaray Garcia (IBM)}
+
+To keep up in today's competitive marketplace, enterprise business entities must be able to constantly transform and improve their business. In order to improve, enterprise business entities have started to integrate sophisticated business analytics and big data, internal and external, in their internal operational processes for sales, marketing, finance, management, procurement, etc. Statistical methodology can play a powerful role in developing such an effective business transformation. In this talk, I will give a few examples of how data scientists and statisticians at IBM use principled statistical thinking to increase efficiency, gain insight, innovate and ultimately transform their businesses.
+
 \item \textbf{Yuxi Chen}, IBM
 
 A Journey to Cognitive Pricing
