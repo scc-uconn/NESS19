@@ -214,25 +214,26 @@ for (timeslot in sessions) {
           session["chair"] <- session["organizer"]
         }
         lines_program <- c(lines_program, "\\begin{enumerate}[align=left]")
-        orgchair <- grepl(toupper(session["organizer"]), toupper(session["chair"]))
+        orgchair <- grepl(toupper(session["organizer"]), toupper(session["chair"])) | 
+          toupper(session["organizer"]) == toupper(session["chair"])
         if(orgchair) {
           if(is.na(session["affiliation"])) {
-          lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s} \\\\", 
+          lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s}", 
                                                     capitalizeName(session["organizer"])))
           lines_program <- c(lines_program, sprintf("\\item [\\emph{Chair:}] \\textbf{%s}", 
                                                     capitalizeName(session["organizer"])))
           } else {
-            lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s}, %s \\\\", 
+            lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s}, %s", 
                                                       capitalizeName(session["organizer"]), capitalize(session["affiliation"])))
             lines_program <- c(lines_program, sprintf("\\item [\\emph{Chair:}] \\textbf{%s}, %s", 
                                                       capitalizeName(session["organizer"]), capitalize(session["affiliation"])))
           }
         } else {
           if(is.na(session["affiliation"])) {
-            lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s} \\\\", 
+            lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s}", 
                                                       capitalizeName(session["organizer"])))
           } else {
-            lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s}, %s \\\\", 
+            lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s}, %s", 
                                                       capitalizeName(session["organizer"]), capitalize(session["affiliation"])))
           }
           chair_ext <- as.vector(str_split_fixed(session["chair"], ",", n = 2))
@@ -266,7 +267,27 @@ for (timeslot in sessions) {
           }
           lines_program <- c(lines_program, "\\end{enumerate}", "")
         } else {
-          lines_program <- c(lines_program, "To Be Added", "")
+          if(is.na(order_abs$Panelist)) {
+            lines_program <- c(lines_program, "To Be Added", "")
+          } else {
+            panelists <-strsplit(order_abs$Panelist, "\r")[[1]]
+            lines_program <- c(lines_program, "\\begin{enumerate}")
+            for (panelist in panelists) {
+              panelist <- gsub("&", "\\&", panelist, fixed=TRUE)
+              if(length(strsplit(panelist, ";")[[1]]) == 3) {
+                lines_program <- c(lines_program, sprintf("\\item \\textbf{%s}, %s \\\\",
+                                                          strsplit(panelist, ";")[[1]][1],
+                                                          strsplit(panelist, ";")[[1]][2]))
+                lines_program <- c(lines_program, sprintf("%s", strsplit(panelist, ";")[[1]][3]))
+              } else {
+                lines_program <- c(lines_program, sprintf("\\item \\textbf{%s} \\\\",
+                                                          strsplit(panelist, ";")[[1]][1]))
+                lines_program <- c(lines_program, sprintf("%s", strsplit(panelist, ";")[[1]][2]))
+              }
+
+            }
+            lines_program <- c(lines_program, "\\end{enumerate}", "")
+          }
         }
         if(!is.na(order_abs$discussant)) {
           lines_program <- c(lines_program, sprintf("\\emph{Discussant:} %s", order_abs$discussant), "")

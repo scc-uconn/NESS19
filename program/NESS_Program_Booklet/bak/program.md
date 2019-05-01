@@ -163,7 +163,7 @@ Banquet Talk
 <h4 class="mb-3">Friday, May 17, 13:10-14:50</h4>
 <table class="table table-hover">
   <tr> <th> Session Title </th> <th> Organizer </th> <th> Session ID </th>  </tr>
-  <tr> <td> Probability, Geometry, and Inequalities: A Special Session Honoring Rick Vitale </td> <td> Jun Yan </td> <td> NESS19-IS-9 </td> </tr>
+  <tr> <td> Probability, Statistics and Geometry: A Special Session Honoring Rick Vitale </td> <td> Jun Yan </td> <td> NESS19-IS-9 </td> </tr>
   <tr> <td> Novel Methodology and Application of Machine Learning Techniques in Data Science </td> <td> Jiwei Zhao </td> <td> NESS19-IS-23 </td> </tr>
   <tr> <td> Statistical Tools for Addressing the Opioid Epidemic </td> <td> Zehang Richard Li </td> <td> NESS19-IS-24 </td> </tr>
   <tr> <td> Challenges and New Advances in Complex Clinical Trials </td> <td> Shuangge Ma </td> <td> NESS19-IS-34 </td> </tr>
@@ -172,7 +172,7 @@ Banquet Talk
   <tr> <td> Novel Statistical Methods for Data Science: Discrete Data, Time Series and Data Integration </td> <td> Daoji Li </td> <td> NESS19-IS-46 </td> </tr>
   <tr> <td> Statistical Advances in Microbiome Data Analysis </td> <td> Aditya Kumar Mishra </td> <td> NESS19-IS-49 </td> </tr>
   <tr> <td> Robust Statistics for Data Science </td> <td> Tian Zheng </td> <td> NESS19-IS-53 </td> </tr>  
-  <tr> <td> NESS Pharmaceutical and Biotech Leadership Forum for Biostatistics/Data Sciences Professionals </td> <td> Rui (Sammi) Tang </td> <td> NESS19-IS-66 </td> </tr>
+  <tr> <td> NESS Leadership Forum for Statistics/Data Science Professionals </td> <td> Rui (Sammi) Tang </td> <td> NESS19-IS-66 </td> </tr>
   <tr> <td> Spatial Data Analysis and Text Data Analysis </td> <td> Gavino Puggioni </td> <td> NESS19-IS-68 </td> </tr>
 </table>
 
