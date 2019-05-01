@@ -6,8 +6,8 @@
 
 ~ 400
 USB drive
-bag/pen
-sponsors' sheets (HSB, Liberty, Travelers)
+Bag/Pen (Haiying design)
+Sponsors' sheets (HSB, Liberty, Travelers)
 
 # Special session honoring Rick
 
@@ -21,14 +21,24 @@ Chair (Jun)
 
 Concluding remark (Rick)
 
-Small gifts
+Gifts (scotch for Rick): Haim
+Other guests from UConn Store: Haim
+
+Videotaping
+
 
 # Short course
 
 Pre-course materials (one week ahead, May 8)
 
+Email addresses to the instructors
+
+
 # Registration (special)
 
+Student volunteer needs special codes from Yan
+Stat-a-thon students need special codes from Yan
+Close now!
 
 # Program
 
@@ -38,10 +48,18 @@ Panel sessions
 
 # Program book
 
-Cover; introduction (Ming, Joe)
++ print
+Cover (reuse bag design)
+Outline with room assignment
+2020 NESS (Gavino)
+
++ electronic
 Committees (volunteers)
 Sponsors
-2020 NESS (Gavino)
+
+# Student volunteers
+free registration
+free banquet
 
 # Sponsors
 
