@@ -34,11 +34,15 @@ Pre-course materials (one week ahead, May 8)
 Email addresses to the instructors
 
 
+
 # Registration (special)
 
-Student volunteer needs special codes from Yan
-Stat-a-thon students need special codes from Yan
-Close now!
+Student volunteer needs special codes from Yan (registration + banquet)
+Stat-a-thon students need special codes from Yan (registration only)
+Keynotes (three keynotes - Sam, David, Amanda; one banquet - Anthony)
+Rick's session (Rick + Dave + Andrew + Subhashi + David)
+Organizers (Jun + HaiYing + Haim)
+Short course instructors (4 in additon to David)
 
 # Program
 
