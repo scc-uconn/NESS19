@@ -1,0 +1,984 @@
+id,date,proposer,email,affiliation,title,proposaltext,organizer,chair,themerelated,prefertime,track,time
+101,,Haiying Wang,,,Statathon presentation 1,,,,,,Ballroom/day 1,16.1
+102,,Haiying Wang,,,Statathon presentation 2,,,,,,Ballroom/day 1,16.2
+57,"March 18, 2019",Kun Chen,kun.chen@uconn.edu,University of Connecticut,The role and advances of principled statistical inference in the era of data science,"The session is on the role and advances of principled statistical inference in the era of data science. This is motivated from the observation that proper statistical inference is somewhat being downplayed in many modern data analytics problems, which may cause biased/misleading results and reproducibility issues. Many of our students are now more motivated to learn new programing languages, blackbox prediction machineries and ways of creating fancy displays of data, but less motivated to dig into making proper statistical inference. It is therefore timely to showcase the role and advances of inference tools and discuss their proper use in modern applications. 
+
+The confirmed speakers include:
+1. Xiao-Li Meng, Harvard, meng@stat.harvard.edu. (TBD)
+2. Min-ge Xie, Rutgers, mxie@stat.rutgers.edu. (TBD)
+3. Jan Hannig, UNC, jan.hannig@unc.edu. (Are reported likelihood ratios well calibrated?)
+
+As several speakers have requested, I will greatly appreciate if this session can be arranged on March 18, the last day of the conference. 
+
+",,Kun Chen,1,17-May,Ballroom/day 2,17.1
+66,"March 19, 2019",Rui (Sammi) Tang,sammi.tang@servier.com,Servier Pharmaceuticals,NESS Pharmaceutical and Biotech Leadership Forum for Biostatistics/Data Sciences Professionals,"This session we have invited biostatistics and data sciences leaders from Biotech, Pharmaceutic and diagnostic companies to sit down and share their experience in leadership. They are representing very experienced leaders from industry with analytic background in life sciences.
+
+Topics including but not limited to how analytic function leads in life science industrial, business model, new ideas and innovation in life science, entrepreneurship and career development. 
+
+Current Confirmed Panelists:
+
+Haoda Fu, Ph.D.
+Enterprise Lead - Machine Learning, Artificial Intelligence, Advanced Analytics and Data Sciences Organization at Eli Lily
+
+James (Jim)  MacDougall, Ph.D.
+Senior Statistical Consultant (formerly vice president of statistics at Ironwood Pharmaceuticals)
+
+Joe Cappelleri, Ph.D.
+Executive Director of Biostatistics at Pfizer Inc, ASA Fellow, Adjunct Professor of Brown University
+
+Ouhong Wang, PH.D.
+Vice President of Biostatistics at Vertex Pharmaceuticals
+
+Jing Huang, PH.D.
+Senior Vice President of Bioinformatics &amp; Data Science at Veracyte",,Rui (Sammi) Tang,0,17-May,Ballroom/day 2,17.2
+9,"February 13, 2019",Jun Yan,jun.yan@uconn.edu,University of Connecticut,"Probability, geometry, and inequalities: A special session honoring Rick Vitale","This is a special session honoring Prof. Rick Vitale's academic achievements and celebrating his 75th birthday. 
+
+Confirmed speakers are David Donoho's of UC Berkeley, Andrew Barron of Yale, and Peter Pivovarov of U Missouri.",,Jun Yan,0,May 17 afternoon,Ballroom/day 2,17.3
+62,"March 19, 2019",Tor D. Tosteson,tor.tosteson@dartmouth.edu,"Geisel School of Medicine at Dartmouth, Department of Biomedical Data Science",Biomedical Data Science: To infinity and beyond!,"This session explores novel research methods, applications, and other issues in the emerging field of Biomedical Data Science.
+Speakers:
+
+Erika L. Moen, Ph.D, Assistant Professor of Biomedical Data Science, Geisel School of Medicine at Dartmouth. erika.moen@dartmouth.edu “Network Analysis in Health Services Research: Opportunities and Challenges”
+
+Zhou Jie, Ph.D., Research Associate, Geisel School of Medicine at Dartmouth; Associate Professor, School of Mathematics and Statistics, Xidian University. Jie.Zhou-2@dartmouth.edu  ""Information Enhanced  Model Selection in  High-Dimensional Gaussian Graphical  Models for Metabolite  Data""
+
+Eugene Demidenko, PhD, Professor of Biomedical Data Science; Geisel School of Medicine at Dartmouth. eugene.demidenko@dartmouth.edu, and Saeed Hassanpour, PhD, Assistant Professor of Biomedical Data Science, Geisel School of Medicine at Dartmouth. saeed.hassanpour@dartmouth.edu   ""Can Statistics and Machine Learning Coexist?""
+",,"Tor D. Tosteson, Professor of Biomedical Data Science, Director Division of Biostatistics",1,May 16,Biostat,16.1
+36,"March 13, 2019",Jing Wu,jing_wu@uri.edu,University of Rhode Island,Modern Statistical Methods for Health Outcome Data,"Big data collected over time are frequently encountered in public health. Monitoring the insurgence of diseases, outbreaks, trends and forecasting, are issues of great practical interests.
+In this session, we present four novel methods for handling big public health data, including sequential analysis, semi-supervised approach, meta-regression, and Cox model.
+
+
+1. 
+Speaker: Yan Zhuang
+Affiliation: Connecticut College
+Email: yzhuang@conncoll.edu
+Title: Two-Sample Sequential Methodologies for Tests of Hypotheses with Applications: Comparing Normal Means When the Two Variances Are Unknown and Unequal.
+
+Abstract: We develop appropriate sampling methodologies for testing hypotheses regarding the difference of mean values from two independent (or dependent) normal populations when their variances are unknown and unequal. We design two-stage and purely
+sequential testing methodologies of hypotheses for comparing the unknown means by determining the appropriate sample sizes while controlling both type-I and type-II error probabilities at or below preassigned levels alpha, beta respectively. Such methodologies are constructed under both unequal and equal sample size designs. We prove that both two-stage and purely sequential testing strategies enjoy a number of practically appealing properties. Extensive sets of computer simulations and real data analyses empirically validate our theoretical findings.
+
+
+2.
+Speaker:  Yichi Zhang
+Affiliation: University of Rhode Island
+Email: yichizhang@uri.edu
+Title: Prior Adaptive Semi-supervised Learning with Application to Electronic Health Records Phenotyping
+
+Abstract: Electronic Health Records (EHR) provides large and rich data sources for biomedical researches, and EHR data have been successfully used to gain novel insights into several diseases. However, the usage of EHR data remains quite limited, because extracting precise phenotype for individual patient requires labor intensive medical chart review and such a manual process is not scalable. To facilitate an automatic procedure for accurate phenotyping, we formulate the problem in a high dimensional setting and propose a semi-supervised method that combine information from chart reviewed records with some data-driven prior knowledge derived from the entire dataset. The proposed estimator, Prior Adaptive Semi-supervised (PASS) estimator, enjoys nice theoretical properties including efficiency and robustness, and applies to a broad class of problems beyond EHR applications. The finite sample performance is evaluated via simulation studies and a real dataset on rheumatoid arthritis phenotyping. Further improvements involving word embedding and selective sampling are discussed.
+
+
+
+3. 
+Speaker: Hao Li
+Affiliation: Boehringer Ingelheim
+
+
+Email: hao.2.li@uconn.edu
+Title: Bayesian Network Meta-Regression Hierarchical
+Models Using Heavy-Tailed Multivariate Random
+Effects with Covariate-Dependent Variances
+
+Abstract
+Network meta-analysis (NMA) is gaining popularity in evidence synthesis. Network
+meta-regression (NMR) allows us to incorporate potentially important covariates into
+network meta-analysis. In this paper, we propose a Bayesian network meta-regression
+hierarchical model and assume a general multivariate t distribution for the random treatment effects. The multivariate t distribution is desired for heavy-tailed outcome variables
+and converges to the multivariate normal distribution when the degrees of freedom go to
+infinity. Moreover, we allow for a general development in which the observed treatments
+for each study can be far less than the total collection of treatments in the data and some
+treatments can be compared only in single studies. To overcome such sparsity, we propose
+a log-linear regression model for the variances of the random effects and incorporate ag-
+gregate covariates into modeling the variance components. We specify different degrees of
+freedom for the multivariate t distribution as well as different combinations of covariates
+for the log-linear model, and utilize the deviance information criterion to perform model
+comparison. Finally, we carry out a detailed analysis from our motivating case study and
+point out a few directions for future methodological development.
+
+
+4.
+Speaker: Yishu Xue
+Affiliation: University of Connecticut
+Email: yishu.xue@uconn.edu
+Title: Geographically Weighted Cox regression for Prostate Cancer Survival Data in Louisiana
+
+Abstract
+The Cox proportional hazard model is one of the most popular tools in
+analyzing time-to-event data in public health studies. When outcomes
+observed in clinical data from di_erent regions yield a varying
+pattern correlated with location, it is often of great interest to
+investigate spatially varying e_ects of covariates. In this paper, we
+propose a geographically weighted Cox regression model for sparse
+spatial survival data. In addition, a stochastic neighborhood
+weighting scheme is introduced at the county level. Theoretical
+properties of the proposed geographically weighted estimators are
+examined in detail. A model selection scheme based on the Takeuchi’s
+model robust information criteria (TIC) is discussed. Extensive
+simulation studies are carried out to examine the empirical
+performance of the proposed methods. We further apply the proposed
+methodology to analyze real data on prostate cancer from the
+Surveillance, Epidemiology, and End Results cancer registry for the
+state of Louisiana.
+
+
+",,Jing Wu,0,May 16 late morning or afternoon,Biostat,16.2
+37,"March 13, 2019",Jie Tang,jie.tang@klserv.com,FMD K&L Inc,Critical questions in Drug development,"In recent years, new drug development became more complex, difficult, and challenging.  There are many critical questions in this scientific field.  This session will touch on three important issues – 1. Vaccine development with group sequential design; 2. Clinical bridging study design 3. High-dimensional prognostic biomarkers.  In order to address these critical questions, this session invited the experts and researchers of these topics to share their knowledge and experiences.  After that, Naitee Ting will serve as discussant for this invited session.
+Speaker 1) Jie Tang - FMD K&L Inc email: jie.tang@klserv.com
+Speaker 2) Cassie Dong - Seattle Genetics  email: cdong@seagen.com
+Speaker 3) Xiang Li - Johnson and Johnson Inc: xli256@its.jnj.com ",,Jie Tang,0,May 16 afternoon,Biostat,16.3
+55,"March 18, 2019",John Zhong,john.zhong@biogen.com,"Biogen, Inc.",Application of statistics and data sciences in pharmaceutical research and development,"The advancement of statistics and data science has created many new opportunities for pharmaceutical research and development. Areas include utilization of deep learning / machine learning to identify better target and biomarker, the use of innovative clinical trial designs to leverage historical and real world data for greater efficiency and better decision making, and many other applications. In this session, we will discuss some applications of statistics and data science in pharmaceutical research and development, along with considerations to control for confounding factors. The presenters and tentative titles are as follows:
+
+Name: Dawei Liu
+Affiliation: Biogen Inc. 
+E-mail address: dawei.liu@biogen.com
+Tentative title: A method for confounder adjustment in tree-based survival analysis
+
+Name: Shijia Bian
+Affiliation: Biogen Inc. 
+E-mail addressdawei.liu@biogen.com
+Tentative title: Statistics and Data Science in Clinical Trial Operation and Clinical Data Quality Monitoring
+
+Name: Fan Wu
+Affiliation: Biogen Inc. 
+E-mail address: Fan.Wu @biogen.com
+Tentative title: On reproducible analysis: a case study of propensity score matching
+
+Name: Peng Sun
+Affiliation: Biogen Inc. 
+E-mail address: peng.sun@biogen.com
+Tentative title: Comparing Joint Rank, Trimmed-mean and Jump-to-control for Analyzing Clinical Trial Data Truncated by Death
+",,John Zhong,0,none,Biostat,17.1
+7,"February 9, 2019",Zhengqing Ouyang,zhengqing.ouyang@jax.org,The Jackson Laboratory for Genomic Medicine,Statistical and Machine Learning Methods for Large-Scale Biomedical Data Analysis,"Ion Mandoiu
+University of Connecticut
+ion@engr.uconn.edu
+Tentative title: Single cell RNA-Seq analysis
+
+Nicholas Reich
+University of Massachusetts, Amherst
+nick@schoolph.umass.edu
+Tentative title: Collaborative and adaptive multi-model ensemble forecasts of influenza
+outbreaks
+
+Smita Krishnaswamy, PhD
+Yale University
+smita.krishnaswamy@yale.edu
+Tentative title: Manifold Learning Yields Insight Into Complex Biological State Spaces
+
+Donghui Yan
+University of Massachusetts, Dartmouth
+dyan@umassd.edu
+Tentative title: Random projection forests with applications to biomedical studies
+",,Zhengqing Ouyang,1,none,Biostat,17.2
+34,"March 13, 2019",Shuangge Ma,shuangge.ma@yale.edu,Yale University,Challenges and new advances in complex clinical trials,"Clinical trials is an “old” field of biostatistics. However, with new data/modeling problems coming out of new trials, it is still evolving fast. In this session, we will have four speakers, three from the pharmaceutical industry and one from academic, presenting new challenges and solutions in modern clinical trials. There is an equal emphasis of practical problems and methodological developments. It is expected that this session will benefit graduate students, researchers, as well as industry statisticians.
+
+Presentation 1
+Back to the Basics: Another look on designing Clinical Trial with Sample size re-estimation
+
+Qiqi Deng
+Senior Principal Methodology Biostatistician
+Biostatistics and Data Sciences
+Boehringer Ingelheim
+qiqi.deng@boehringer-ingelheim.com
+
+Abstract: Sample size re-estimation (SSR) is one of the most commonly used adaptive design. While type I error control has been a long-standing and well-studied topic in Sample size re-estimation, less attention has been given to constructing an efficient and sensible sample size re-estimation rule. SSR rule is usually defined using conditional power based on current trend. It is important to note that such design usually assumed that observed treatment effect is the true treatment effect, which may not necessarily be true. The variability of the estimated treatment effect at interim analysis need to be considered. It is very important to choose an appropriate maximum limit for allowable sample size, and an efficient promising zone for sample size increase. In this talk, we will discuss how to use the information from clinical perspective and statistical perspective to construct an efficient SSR rule, and avoid the common pitfalls in SSR design.
+
+Presentation 2
+Modeling tumor growth using a Bayesian non-linear mixed effects model
+
+Wei Wei1 (presenter), Sarah B Goldberg2, Harriet Kluger2, Veronica Chiang2, and Amit Mahajan2, Elizabeth Garrettt-Mayer3, Daniel Zelterman1.
+1.        Yale School of Public Health, New Haven, CT
+2.        Yale School of Medicine and Yale Cancer Center, New Haven, CT
+3.        Division of Biostatistics and Research Data Governance, Center for Research and Analytics (CENTRA), American Society of Clinical Oncology
+
+Abstract: Efficacy assessment in early phase cancer clinical trials often focuses on objective response, which is a binary indicator of tumor size reduction based on the RECIST criteria. Despite losing the longitudinal information of tumor growth, objective response provides a reliable measure for the anti-tumor activities of chemotherapy which mainly act through direct killing of tumor cells. Unlike cytotoxic agents, immune therapies can result in more durable responses among responders and provide a survival benefit to some non-responders whose tumor size is not significantly reduced. To better measure the effect of anti-tumor agents, we developed a Bayesian non-linear mixed effects model, which includes an exponential decay and an exponential growth term. The observed tumor growth of patient i is determined by both the decay parameter di representing the tumor cell killing rate of the anti-tumor agent and the grow parameter gi representing the tumor cell replication rate. The relative strength of di and gi determines whether or not tumor will shrink in response to treatment.  Clinically interpretable parameters including response rate, maximum tumor burden reduction and duration of response can be derived from this model. We illustrate the proposed model using data from a phase II trial of non-small cell lung cancer and demonstrate the superiority of the proposed model in predicting long term benefits of treatment (overall survival) compared to RECIST based response criteria. 
+
+Presentation 3
+Bayesian Interim Monitoring and Sample Size Re-estimation
+
+Fei Wang
+Senior Manager Biostatistics
+Center for Design and Analysis
+Amgen
+feiw@amgen.com
+ 
+An interim analysis in clinical trials provides advantages over a fixed-sample design. With the right amount of cumulative information, it can effectively detect safety issues and terminate inefficacious drugs. Not only does terminating a trial early cut cost, save time and resources in drug development, prevent exposure of unsafe toxicity to the patients, but it also expedites the clinical development process. Bayesian interim monitoring accumulates information from the current trial and also utilize the existing trials. At the design stage, incorporating prior information for treatment effects and variance parameter,  decision metrics in Bayesian interim analysis will be discussed. Timing and frequency of interim analyses will be considered through simulation. When the prior information used for design is not true, it is necessary to evaluate the model performance, operating characteristics and sample size determination.
+
+Presentation 4
+Evaluating MCP-Mod for Dose Finding and Dose-Response Estimation in Dose -Ranging Clinical Trial
+
+Qing Zhao 
+Association Principal Scientist, Biostatistics, Merck & Co Inc.
+happysundae@gmail.com
+
+Investigating dose-response relationships and identifying the appropriate dose for confirmatory studies are important and challenging goals during drug development. Multiple Comparison Procedures & Modeling (MCP-Mod), a combination of MCP principles and modeling techniques, provides the flexibility of modeling for dose estimation, while preserving the rigor associated with MCP. The approach is further extended to perform dose-response modeling and testing in the context of general parametric model. We examine via simulation the performance of MCP-Mod in terms of both continuous and binary endpoints by comparing it with several common approaches used in dose response studies including trend tests and pairwise comparisons. The evaluation includes not only the power to identify the dose-response signal, target dose estimates based on a minimum effective dose (MED), but also the response estimation at target dose. The analysis of a Phase II clinical trial is further used to demonstrate its application in the dose selection process interacting with the regulatory agencies.
+",,TBD,1,May 17,Biostat,17.3
+27,"March 10, 2019",Jeff Goldsmith,ajg2202@cumc.columbia.edu,"Columbia University, Department of Biostatistics",Statistical methods for big data in neuroscience,"Neuroscience is a scientific area that exemplifies the need for active statistical collaboration and methods development in the era of big data. The data are high-dimensional and complex, and arise from numerous sources including neuroimaging and EEG. This session focuses on the best examples of contemporary biostatistics in neuroscience, characterized by deep subject area expertise and innovative statistical approaches. Speakers will present recent work in a variety of topics, including harmonization of images across sites, use of images in regression models, and automated approaches to lesion detection and segmentation.",,TBD,1,none,Data science,16.1
+18,"March 6, 2019",Guojun Gan,guojun.gan@uconn.edu,University of Connecticut,Data Science in Actuarial Science,"This session focuses on applications of data science in actuarial science and insurance. 
+
+Speakers:
+1. Jianxi Su, Purdue University
+2. Thorsten Moenig, Temple University
+3. Zhiyu Quan, University of Connecticut
+4. Guojun Gan, University of Connecticut",,Guojun Gan,1,none,Data science,16.2
+12,"February 25, 2019",Balgobin Nandram,balnan@wpi.edu,Worcester Polytechnic Institute,Some Applications of Statistics in Data Science,"1. Andreea Erciulescu, WestStat, MD; The data science challenge of bridging two complex surveys
+
+2. Lu Chen, National Institute of Statistical Sciences, Hierarchical Bayesian Logistic Regression Model
+for Sub-Areas
+
+3. Buddika Peiris,  Worcester Polytechnic Institute,  An Improved Meta-analysis for Analyzing Time Series Circular Regression with Application to Environmental Study
+
+4. Seongho Song, University of Cincinnati;
+Hierarchical Bayesian analysis for Stochastic Frontier Production Function Model
+
+
+",Balgobin Nandram,Jian Zou,1,none,Data science,16.3
+45,"March 17, 2019",Balaji Raman,balaji.raman@cogitaas.com,Cogitaas AVA,Some Applications of Data Science in Industry,"The session will focus on applications of statistical and machine learning models in CPG, media and manufacturing industries
+Speaker Details are below
+1.	Name: Kamal Sen
+  Affiliation: Cogitaas AVA
+Talk Title: Dynamic Linear Models to Measure Effectiveness of Promotion Spends in CPG domain	
+Email: kamal.sen@cogitaas.com 
+
+2.	Name: Timothy Collins & Yunfei Chen	
+Affiliation: GroupM[m]Platform
+Talk Title: Deploying Swarm Intelligence to Balance Challenges of Disaggregate Predictive Modelling	
+Email: timothy.collins@groupm.com & yunfei.chen@groupm.com 
+
+3.	Name: Jeffrey Stratton	
+Affiliation: Pratt and Whitney
+Talk Title: TBA	
+Email: jeffreystratton@gmail.com 
+
+4.	TBD	
+
+",,Nalini Ravishanker,1,none,Data science,17.1
+51,"March 18, 2019",Ruiqi Liu,liuruiq@iu.edu,Indiana University - Purdue University Indianapolis,Statistical Learning,"Description: The session will cover some problems of both machine learning and deep learning from statistical view. Exciting recent developments on learning theory have shown that several fundamental problems, such as convergence of deep neural network, community detection and stochastic gradient decent  can be embedded into statistical framework. Researchers in the area  of computer science study learning theory mainly focusing on the convergence of estimation and convergence of algorithm, while asymptotic distribution is widely ignored. However, inferential theory plays an important role in both theoretical and applied statistics, which is of more interest for statisticians.  In this section, we will focus on developing statistical inference on learning theory.
+
+Invited Speaker: 
+
+""Testing community structure for hypergraphs""-Mingao Yuan, Assistant Professor, Department of Statistics at NDSU
+
+""TBD"", Xin Xing, Post-doc, Department of Statistics at Harvard University
+
+""Learning Confidence Sets using Support Vector
+Machines
+"", Wenbo Wang, Student, Department of Mathematical Sciences at SUNY Binghamton
+
+""TBD"", Honglang Wang, Assistant Professor,Department of Mathematical Sciences at IUPUI
+
+",Zuofeng Shang,Zuofeng Shang,0,none,Data science,17.2
+58,"March 18, 2019",Dakota Cintron,dakota.cintron@uconn.edu,University of Connecticut,Data Science: Computational Social Science?,"This session will elaborate on how big data and data science have led to an emergence of a research paradigm termed computational social science. Computational social science is exemplified by interdisciplinary research between social scientists, computer scientists, statisticians and mathematicians. The aim of computational social science is to leverage algorithms for prediction or machine learning to solve both extant and contemporary problems in the social sciences. 
+
+Talk 1: Data Science as Computational Social Science (25 Minutes)
+Dakota Cintron (Presenter) and D. Betsy McCoach
+University of Connecticut
+dakota.cintron@uconn.edu
+betsy.mccoach@uconn.edu
+
+Description: Data science is providing new and innovative ways to both collect and analyze data on individuals and their behavior. This proliferation of methods and data has led to a shift in the social science research paradigm to a more computational (i.e., algorithmic or computer-assisted) social science. In this session, we discuss data science as computational social science and how this offers new insights for both social science researchers and business analysts alike. 
+
+Talk 2: Statistical Inference in Computational Social Science: A Sentiment Analysis Approach (25 Minutes)
+Leah Pound and Mora Reinka (Co-Presenters)
+University of Connecticut
+leah.pound@uconn.edu
+mora.reinka@uconn.edu
+
+Description: This talk will discuss how data science as computational social science provides new opportunities for conducting social science research and statistical inference. Examples of using statistical inference in computational social science will be provided using social psychology data. Specifically, the analyses will utilize a traditional ANOVA framework to evaluate sentiment differences between respondent groups. Limitations and implications of using statistical inference in computational social science are discussed. 
+
+Talk 3: Big Social Science Data (25 Minutes)
+D. Betsy McCoach (Presenter), Devin Kearns, and Dakota Cintron
+University of Connecticut
+betsy.mccoach@uconn.edu
+devin.kearns@uconn.edu
+dakota.cintron@uconn.edu
+
+Description: Twitter posts, Facebook likes, and natural language are all examples of big social science data that have emerged in the era of big data and data science. This talk discusses opportunities and challenges for harnessing big social science data, especially for computational social science. Further, this talk discusses the implications of big social science data for traditional fields of social science such as psychology and education.  
+
+Discussant (15 Minutes)
+Devin Kearns
+devin.kearns@uconn.edu
+
+Q/A (10 Minutes)
+
+
+",,Dakota Cintron,1,none,Data science,17.3
+54,"March 18, 2019",D. Betsy Mccoach,betsy.mccoach@uconn.edu,University of Connecticut,Teaching Data Science,"Teaching Data Science
+
+This session focuses on issues related to the teaching of data science at the undergraduate and graduate levels. Titles and descriptions of each of the three talks appear below.
+
+Talk 1: Teaching Data Science to Non-STEM graduate students
+Devin Kearns, D. Betsy McCoach, and Dakota Cintron
+University of Connecticut
+
+Description: This talk describes a graduate level course in Data Science, geared toward Social Science and Education PhD students. We describe our successes, failures, challenges, and lessons learned. We end with a discussion on our suggestions for teaching data science to graduate students in non-technical graduate programs.
+
+
+Talk 2: Integrating Real-World Research Projects in an Undergraduate Design and Analysis Course
+Randi Garcia, Smith College
+
+Description: This talk will discuss the benefits and challenges of integrating real experimental research projects into an undergraduate Research Design and Analysis course. These projects were conducted in collaboration with client partners on the Smith College campus, including the Botanic Gardens, the Museum of Art, and the Executive Education office. Strategies for finding client partners, for properly scaffolding and scoping projects, and for managing group communication are discussed. The benefits to student learning as well as to the creation of inclusive classroom experiences are highlighted.
+
+Talk 3: Data Science versus Statistics: What do students need to know?
+D. Betsy McCoach and Dakota Cintron
+University of Connecticut
+
+Description: Data science has exploded as a discipline over the last decade.  What can data science teach us about teaching statistics and training students in data analysis? Will data science 101 replace statistics 101 as a core undergraduate course?  How should students decide whether to pursue training in data science or statistics?  This talk is meant to stimulate discussion among the conference participants.  Join us for a lovely debate on data science versus statistics.",,D. Betsy Mccoach,1,"May 16th ANYTIME (I can't do the 17th, unfortunately)",Education,16.1
+42,"March 15, 2019",Nathan Lally,nathan.lally@gmail.com,Hartford Steam Boiler (Munich Re),Data Science and Statistics in Insurance,"Description:
+The insurance industry is rapidly expanding the role of data science throughout organizations with applications ranging from ratemaking, reserving, catastrophe modeling, enterprise risk management, digital marketing, claims processing and research, loss prevention, inspection, and beyond. This session brings together leading researchers and industry data scientists to present cutting edge applications of data science to insurance problems.
+
+Hartford 
+
+Invited Speakers:
+Brian Hartman, Brigham Young University Department of Statistics hartman@stat.byu.edu - “Generative Adversarial Networks for Synthesizing Property & Casualty Ratemaking Data”
+
+Shanshan Li, Mass Mutual Data Science SLi26@massmutual.com - “Adjustment of Under-Reporting Bias in Mortality Studies”
+
+Michael Barr, Munich Re/Hartford Steam Boiler Data Science michael_barr@hsb.com - “Hierarchical Bayesian and Statistical Learning Models for Treaty Reinsurance Ratemaking”
+
+Gao Niu, Bryant University gniu@bryant.edu - “Image Processing for Post Hurricane Real Estate Damage Estimation”",,Nathan Lally,1,No preference,Education,16.2
+4,"February 4, 2019",Naitee Ting,naitee.ting@boehringer-ingelheim.com,"Boehringer Ingelheim Pharmaceuticals, Inc.",Career opportunities in statistics and data sciences,"This is a panel discussion session.  Panelists include people from academia, industry, and recruitment companies.  Each panelist will make a brief presentation, and then open for floor discussion.",,Naitee Ting,1,none,Education,16.3
+41,"March 15, 2019",Chris Parks,cparks2@travelers.com,Travelers Insurance,Effective Communication of Technical Concepts to Non-Technical Audiences,"The most important findings of the most brilliant statistician or data scientist can be undervalued if the ideas are not conveyed to their audience effectively.  Those who attend this session will learn techniques for how to understand their audience, develop the right message, listen and observe to tailor their approach in real-time, and the importance of asking for feedback.  Additionally, we will conduct an exercise where you will determine your own communication style, how it may differ from others, and how to best communicate with all audiences.  This session will be particularly helpful for students and professionals early in their careers. 
+
+Speakers: Kathy Ziff (Travelers), other speakers TBD",Kathy Ziff,Chris Parks,1,none,Education,17.1
+50,"March 18, 2019",Gregory J Matthews,gjm112@gmail.com,Loyola University Chicago,Sports Analytics,"In this session 3 speakers will give presentations on statistical applications in sports followed by comments presented by a discussant.  This session will have popular appeal to many people attending NESS.  
+
+Jieying Jiao (Jieying Jiao), ""A Bayesian joint model of mark and intensity of marked spatial point process with application to basketball shot charts.""
+
+Sameer Deshpande (sameerd@alum.mit.edu), ""Estimating the health consequences of playing football using observational data: challenges, lessons learned, and new directions.""
+
+Shane Sanders (sdsander@syr.edu), Syracause University, ""Informed Voters, Uninformed Voters, and Electoral Outcomes: A Natural Experiment from Major League Baseball MVP Voting.""
+
+Mike Lopez (lolay07@gmail.com), Skidmore College and NFL, Discussant
+
+
+",Gregory J Matthews,Gregory J Matthews,1,May 17,Education,17.2
+38,"March 13, 2019",Yasuo Amemiya,yasuo@us.ibm.com,IBM Chief Analytics Office,Data Science in Action at IBM Chief Analytics Office,"At IBM, the Chief Analytics Office with expertise in relevant fields including data science provides analytical solutions to corporate-wide business problems.  This session features four speakers from this Office illustrating the use of novel data science methods in solving enterprise business problems.
+
+Business metric forecasting and analytics for decision support
+Beatriz Etchegaray Garcia, IBM Chief Analytics Office
+beetcheg@us.ibm.com
+
+A journey to cognitive pricing
+Yuxi Chen and Liyang Song, IBM Chief Analytics Office
+yuxi.d.chen@ibm.com and liyangso@us.ibm.com
+
+Unlocking data in PDF files for AI applications in legal and IP document generation
+Kriti Kohli, IBM Chief Analytics Office
+kkohli@ibm.com 
+
+Offering portfolio assessments using survey and machine learning methodologies
+Tian Bao, IBM Chief Analytics Office
+tian.bao@ibm.com
+",,Yasuo Amemiya,1,May 17 Afternoon (we need to be at IBM student paper award presentation),Education,17.3
+61,"March 19, 2019",Arlene Ash,arlene.ash@umassmed.edu,"Dept of Population and Quantitative Health Sciences, University of Massachusetts Medical School",Using Statistics for Health Delivery System Reform in Massachusetts,"A. Brief description of the session: 
+Our research team at the University of Massachusetts Medical School works with MassHealth, the agency that administers our State’s Medicaid and Children’s Health Insurance Programs (CHIP). MassHealth members are highly diverse. We use statistical models to help MassHealth manage and evaluate its programs and initiatives. For example: 
+1.	Making equitable payments 
+Currently, most managed care payment formulas allocate more money for medically complex populations but ignore social determinants of health (SDH). We evaluate adding SDH variables to the diagnosis-based formulas that help determine payments to managed care plans and accountable care organizations.
+2.	Creating equitable quality measures
+In measuring healthcare quality, it is increasingly recognized that some form of risk adjustment may be needed to incentivize providers to deliver high-quality care while avoiding penalizing safety net providers that can achieve expected outcomes for their disadvantaged populations.
+3.	Estimating the effect of policy interventions
+As MassHealth implements several specific (large and small) changes in the health care delivery system, we will examine changes in outcomes (e.g., cost and quality) for MassHealth members, and seek to attribute changes in outcomes to policy initiatives.
+4.	Developing new quality measures that account for both medical and social risk
+For example, MassHealth hopes to encourage and reward health plans for increasing community tenure, that is, the length of time that vulnerable members spend in the community. We are building models to predict such outcomes for members with behavioral disorders or those who need long term services and supports.
+
+B. List of speakers and email address:
+Eric Mick, ScD, Eric.Mick@umassmed.edu
+Karen Clements, ScD, Karen.Clements@umassmed.edu
+Matt Alcusky, PharmD, MS, Matthew.Alcusky@umassmed.edu
+NienChen Li, MPH, MA, PhD candidate, Nienchen.Li@ umassmed.edu
+C. Affiliations for all the speakers:
+Department of Population and Quantitative Health Sciences, University of Massachusetts Medical School, Worcester, MA
+
+(1)	Eric Mick, Sc.D.
+Title: Risk-Adjusted Quality Measure Model for Emergency Department Visits in Medicaid Adult Population with Severe Mental Illness and Substance Use Disorders. 
+In evaluating quality in health care, measures may require risk adjustment. Our study demonstrates the utility of risk adjustment approaches for an emergency department (ED) quality measure to assess Accountable Care Organization (ACO) performance among MassHealth members with severe mental illness (SMI) and/or substance use disorders (SUD). These groups have elevated rates of ED use compared to the general population. To the extent that excess ED visits in a SMI/SUD population is a sign of inadequate clinical management, ACOs with lower ED visit rates are viewed as providing better care. We describe the development of a multivariable model to predict ED visits for a risk-adjusted quality measure in MassHealth, and consider its predictive power, model calibration, and implications for important subgroups.
+
+(2)	Karen Clements, Sc.D.
+Title: Statistical approaches to evaluating changes in opioid overdoses in Massachusetts: challenges and strategies
+In parallel to ACO transformation, MassHealth is using 1115 Waiver Demonstration funds to address the opioid addiction crisis by expanding access to a broad spectrum of recovery-oriented substance use disorder services.  The evaluation will examine changes in quality measures, costs and outcomes of members with substance use disorders pre- to post-implementation of services. This talk will examine the challenges faced and the strategies developed to evaluate a key outcome, opioid overdoses, in the context of multiple concurrent state, local, and national initiatives to address the opioid crisis. 
+
+(3)	Matt Alcusky, PharmD., MS
+Title: Matching Payment to Need: Risk Adjusting Medicaid Payment for Long-Term Services and Supports in an Elderly Dual-Eligible Population
+Among Medicare-Medicaid eligible older adults, long-term services and supports (LTSS) constitutes the largest spending category for Medicaid programs because Medicare does not cover most LTSS. Using community based LTSS services to delay or prevent entry into institutional settings is both a patient-centered goal and a potentially cost-saving approach for Medicaid programs. We sought to develop a model using demographic, clinical, social, cognitive, and functional status data to predict differences in need for LTSS services among community-dwelling dual eligible members enrolled in managed senior care organizations in Massachusetts. 
+Predictive models developed using administrative data and functional status information could identify and allocate payments for subgroups of members with LTSS needs that differ substantially from average. Underscoring the importance of risk adjustment in for this population, without risk adjustment, plans would receive only about half of their costs for members in the highest decile of model predicted LTSS cost. Since member characteristics vary substantially across the studied senior care organizations, risk adjustment of a fixed program budget allocates meaningfully different capitation payments to plans. Calibrating payment to need mitigates incentives for population skimming and promotes the sustainability of mission-oriented organizations that care for the most complex and vulnerable populations. Our findings are relevant and timely, as state and federal policymakers seek to manage LTSS costs for dual Medicare-Medicaid enrollees.
+
+(4)	NienChen Li, MPH, MA, PhD candidate
+Title: Retention within the Community as a Quality Measure 
+Community tenure is defined as days when at-risk members reside in a community setting without using acute or post-acute inpatient services. Increased community tenure is a desired patient outcome, that may also lower Medicaid spending. Thus, in addition to more traditional measures, such as, reductions in ED visits and hospital readmissions, MassHealth has permission from CMS to develop a community tenure quality measure for its members, aged 18 to 64 years, who have either behavioral health diagnoses or have used LTSS services for at least 3 consecutive months. We will conduct a retrospective cohort study with secondary, administrative data from MassHealth Medicaid (2015-2018) and explore a range of modeling options for capturing systematic differences in community tenure within this highly heterogeneous target population. 
+",Arlene Ash,Arlene Ash,1,May 16 Morning section,Health analytics,16.1
+43,"March 16, 2019",Junwei Lu,junweilu@hsph.harvard.edu,Harvard University,Healthcare Data Analysis for Electronic Health Records,"This session focus on the statistics and machine learning methods related to large-scale healthcare data, especially the electronic health records (EHR). The sessions have three 30-min sub-talks and a 10 min discussion. 
+- Speaker 1: Xu Shi, Harvard University (xushi@hsph.harvard.edu), Title: Bridging the gap between noisy healthcare data and knowledge: causality and portability;
+- Speaker 2: Luwan Zhang, Harvard University (luwanzhang@gmail.com), Title: Multi-view consensus learning for EHR data;
+- Speaker 3: Rounak Dey, Harvard University  (rdey@hsph.harvard.edu), Title: A fast and accurate algorithm to test for binary phenotypes and its application to PheWAS;
+- Discussant: Junwei Lu, Harvard University  (junweilu@hsph.harvard.edu)",,Junwei Lu,1,May 16 afternoon,Health analytics,16.2
+13,"March 17, 2019",Chongliang Luo,luocl3009@gmail.com,University of Pennsylvania,Statistical Methodology for Healthcare Data Analysis,"Healthcare data analysis, including EHR, genetics, clinical trial data, require novel statistical methodologies. The talks in this session cover several important topics of healthcare data analyses, including measurement error, personalized medicine and bias reduction methods.
+
+The titles and speakers are list as below:
+1. Analysis of Multi-State Models with Misclassified States, Grace Y. Yi, University of Waterloo, yyi@uwaterloo.ca.
+2. PIE: A Prior Knowledge Guided Estimation Method for Bias Reduction in EHR-based Research, Jing Huang, University of Pennsylvania, jing14@pennmedicine.upenn.edu
+3. Matched Learning for Optimizing Individualized Treatment Strategies Using Electronic Health Records, Peng Wu, Columbia University, pw2394@cumc.columbia.edu.
+4. An Augmented Survival Analysis Method for Interval Censored and Mis-measured Outcomes, Chongliang Luo, University of Pennsylvania, chongliang.luo@pennmedicine.upenn.edu",Chongliang Luo,Chongliang Luo,0,May 16 afternoon,Health analytics,16.3
+39,"March 14, 2019",Elizabeth Schifano,elizabeth.schifano@uconn.edu,University of Connecticut,Novel Statistical Methods for the Analysis of Genomic Data,"In this session, we present a collection of recent developments of novel strategies and methods for the statistical analysis of genomic data.  By design, all of these methods are necessarily computational efficient and/or computationally feasible given the massive nature of sequencing data and expression quantitative trait loci data.  The topics proposed in this session cover a wide variety of statistical methods that are also of interest more broadly (beyond the genomics context) including: robust non-parametric and non-asymptotic inference methods; unsupervised and semi-supervised approaches for predicting functional effects; scan statistics to simultaneously detect the existence, and estimate the location of an association signal; novel variance component model estimation methods; and mediation analysis for multiple mediators.  
+
+A brief description of each talk is given below, followed by a list indicating the affiliation, contact email, and tentative talk titles for each speaker.
+ 
+Dr. Tamar Sofer, from Brigham and Women’s Hospital and Harvard Medical School, will present a non-parametric, non-asymptotic, carriers-only tests for the association of rare variants with a trait. These tests can be applied to low-count variants, for which statistical asymptotic properties may not hold, while still allowing proper statistical inference and being computationally efficient. These tests require the estimation of a single (possibly mixed) regression model under the null hypothesis of no variant effect on the outcome (i.e. model with only covariates), and then using predicted means from these null models for testing whether carriers of a rare variant have extreme phenotypes. 
+
+Dr. Iuliana Ionita-Laza, from the Columbia Mailman School of Public Health, will present several integrative statistical approaches for the analysis of whole-genome sequencing data. Continuous advances in massively parallel sequencing technologies make large whole-genome sequencing studies increasingly feasible. The analysis of such data is challenging due to the large number of rare variants in noncoding regions of the genome, our poor understanding of their functional effects, and the lack of natural units for testing (e.g. the analogue of genes in coding regions). She will discuss an unsupervised approach based on a latent Dirichlet allocation model to predict functional effects of genetic variants in a cell type/tissue specific manner; further extensions to the semi-supervised setting where high-quality experimentally derived labels are available for a small to modest number of variants; and GenoScan, a scan statistic approach to simultaneously detect the existence, and estimate the location of the association signal in a pre-specified large region or at genome-wide scale. 
+
+Dr. Lorin Crawford, from Brown University, will present a marginal epistasis test for detecting genetic interaction. Epistasis, commonly defined as the interaction between multiple genes, is an important genetic component underlying phenotypic variation. Many statistical methods have been developed to model and identify epistatic interactions between genetic variants. However, because of the large combinatorial search space of interactions, most of these methods face enormous computational challenges and often suffer from low statistical power due to multiple test correction. He will present a novel, alternative strategy for mapping epistasis: instead of directly identifying individual pairwise or higher-order interactions, we focus on mapping variants that have non-zero marginal epistatic effects—the combined pairwise interaction effects between a given variant and all other variants. The method is based on a variance component model, and relies on a recently developed variance component estimation method for efficient parameter inference and p-value computation. 
+
+Dr. Zuoheng Anita Wang, from the Yale School of Public Health, will discuss identification of trans-expression quantitative trait loci (trans-eQTLs) using mediation analysis with multiple mediators. Identification of eQTLs advances our understanding of genetics and regulatory mechanisms of gene expression in various organisms. Previous studies suggest that trans-eQTLs may regulate expression of remote genes by altering the expression of nearby genes. Trans-association has been studied in the mediation analysis with a single mediator. However, prior applications with one mediator are prone to model misspecification due to correlations between genes. Motivated from the observation that trans-eQTLs are more likely to associate with more than one cis-gene than randomly selected SNPs in the GTEx dataset, she will present a computational method to identify trans-eQTLs that are mediated by multiple mediators.
+
+The session organizer/chair and speakers have confirmed their willingness and availability to attend this session, provided the session is NOT on Thursday, May 16.
+
+List of invited speakers (include affiliation, email, tentative talk title):
+
+Tamar Sofer <tsofer@bwh.harvard.edu>
+Associate Biostatistician, Brigham and Women’s Hospital; Assistant Professor, Harvard Medical School
+Tentative Talk Title: Carriers-only Tests of the Association of a Rare-variant with a Binary trait
+
+Iuliana Ionita-Laza <ii2135@cumc.columbia.edu>
+Associate Professor of Biostatistics, Columbia Mailman School of Public Health
+Tentative Talk Title: Integrative statistical approaches for the analysis of whole-genome sequencing data
+
+Lorin Crawford <lorin_crawford@brown.edu>
+Assistant Professor of Biostatistics, Brown University
+Tentative Talk Title: Detecting Genetic Interaction with the Marginal Epistasis Test
+
+Zuoheng Anita Wang <zuoheng.wang@yale.edu>
+Associate Professor of Biostatistics, Yale School of Public Health
+Tentative Talk Title: Identification of Trans-eQTLs Using Mediation Analysis with Multiple Mediators",,Elizabeth Schifano,0,Strongly prefer Friday May 17; one of my speakers has a scheduling conflict on Thursday May 16.,Health analytics,17.1
+47,"March 18, 2019",Veronica Berrocal,berrocal@umich.edu,"University of Michigan, Department of Biostatistics",Air pollution and public health: new spatial and spatio-temporal statistical approaches for exposure assessment and causal inference,"Although the negative effects of air pollution exposure on health outcomes (respiratory, cardiovascular, etc.) have been recognized in epidemiological studies since the early 90’s, the magnitude of these effects has not yet well determined since inference on these effects depends upon a reliable characterization of individuals’ and populations’ exposure to air pollution. 
+This session will present novel spatial and spatio-temporal statistical models that aim to advance the field of air pollution epidemiology by providing both methods for air pollution exposure assessment as well as statistical methods that can yield a deeper understanding of factors that affect daily patterns of air pollutants concentration. 
+Considering an urban environment, Phil White will present a Bayesian nonparametric approach that can be used to cluster hourly air pollution data, and more generally, functional data, based on their relationship to exogenous variables.
+Still set in an intra-urban environment, Owais Gilani will present a novel Bayesian non-stationary spatial statistical model that, by leveraging the output of a dispersion model along with information on multiple exogenous variables, will yield improved estimates of traffic-related air pollutants concentrations to be used in air pollution epidemiological studies. 
+Working still in the context of data fusion models, Howard Chang will present a new data fusion modeling approach that exploits the information on air pollution concentration contained in both the output of an atmospheric-chemistry model and in satellite retrievals of aerosol optical depth. 
+Finally, Alexandra Larsen will conclude the session with a spatial causal inference method to estimate the amount of wildfire-contributed PM2.5 in the U.S. and the associated health burden as well as a machine learning algorithm for automatically detecting wildfire smoke in satellite imagery.
+
+Speakers and titles of talks, in order: 
+
+•	Philip White, Duke University, Department of Statistical Science; 
+Email: philawhite@gmail.com
+Title: “Multivariate functional factor models with time-varying clustering”
+
+•	Owais Gilani, Bucknell University, Department of Mathematics; 
+Email: og005@bucknell.edu
+Title: “Non-stationary spatiotemporal Bayesian data fusion model for pollutants in the near-road environment”
+
+
+
+•	Howard Chang, Emory University, Department of Biostatistics and Bioinformatics; 
+Email: howard.chang@emory.edu
+Title: “A spatial Bayesian ensemble approach for estimating ambient air pollution concentration with numerical model simulation and satellite imagery”
+
+•	Alexandra Larsen, North Carolina State University, Department of Statistics;  Email: aelarsen@ncsu.edu
+Title: “Environmental statistics for wildfire management and public health”
+
+
+
+Chair: Gavino Puggioni, University of Rhode Island, Department of Computer Science and Statistics
+Email: gpuggioni@uri.edu
+",,Gavino Puggioni,0,none,Health analytics,17.2
+24,"March 7, 2019",Zehang Richard Li,zehang.li@yale.edu,"Department of Biostatistics, Yale School of Public Health",Statistical tools for addressing the opioid epidemic,"The opioid epidemic has become one of the greatest public health threats over the last few decades and drug overdose has become the leading cause of accidental death in the United States. At the same time, it also poses many methodological challenges. Novel statistical models are in great need, in order to understand the prevalence of drug misuse and associated risk factors, mechanisms of the transition processes during outbreaks, and designing effective interventions. Many challenges also exist in charactering the epidemics and policy evaluation by leveraging new sources of data, such as from non-probabilistic surveys, large electronic health record databases, emergency medical services records, etc. We propose an invited session to discuss recent methodological developments in the research of opioid and drug misuses, and evaluation of interventions from observational studies. We expect the session to be of interest to a broad range of statisticians and epidemiologists working with observational data in public health, HIV/AIDS research, and health care policies.
+
+The session will consist of 4 speakers, each with 20 minutes of presentation and 5 minutes of Q&A.
+
+List of invited speakers:
+Ashly Buchanan (buchanan@uri.edu)
+Department of Pharmacy Practice, College of Pharmacy, University of Rhode Island, Kingston, Rhode Island, USA
+Title: Direct and Indirect Effects of Medication Assisted Therapy on Nonfatal Opioid Overdose among Patients with Opioid Use Disorder within Prescriber Networks
+ 
+Krista J. Gile (gile@math.umass.edu)
+Department of Mathematics and Statistics, University of Massachusetts Amherst, Amherst, Massachusetts, USA
+Title: Methods for Respondent-Driven Sampling on Opioid Users
+
+David M. Kline (david.kline@osumc.edu)
+Department of Biomedical Informatics, The Ohio State University, Columbus, Ohio, USA
+Title: A Spatial Factor Model Approach for Assessing the Opioid Epidemic in Ohio
+
+Zehang Richard Li (zehang.li@yale.edu)
+Department of Biostatistics, Yale School of Public Health, New Haven, Connecticut, USA
+Title: A Bayesian Approach to Assess Intervention Effects on Opiate Overdose Incidents in Space and Time. 
+
+",,Forrest W. Crawford,1,none,Health analytics,17.3
+35,"March 13, 2019",Yao Zheng,yaozheng@purdue.edu,Purdue University,High Dimensional Dependent Data Analysis,"This session focuses on dependent data analysis in high dimensions.  It covers timely topics including distance and kernel-based metrics in high dimensions, high dimensional white noise tests, estimation of high dimensional single index models, and estimation of high dimensional vector autoregressive models.  These topics contribute to an advanced understanding of complex dependence structures in high dimensions. 
+
+List of Presentations and Speakers:
+
+Title: A New Framework for Distance and Kernel-based Metrics in High Dimensions
+Speaker: Xianyang Zhang, Assistant Professor, Department of Statistics, Texas A&M University
+Email: zhangxiany@stat.tamu.edu
+
+Title: Average Derivative Based Estimation of High Dimensional Single-index Models
+Speaker: Ruixuan Liu, Assistant Professor, Department of Economics, Emory University
+Email: ruixuan.liu@emory.edu
+
+Title: On Testing High Dimensional White Noise 
+Speaker: Zeng Li, Eberly Fellow Postdoc, Department of Statistics, The Pennsylvania State University
+Email: zxl278@psu.edu
+
+Title: Finite Time Analysis of Vector Autoregressive Models under Linear Restrictions
+Speaker: Yao Zheng, Visiting Assistant Professor, Department of Statistics, Purdue University
+Email: yaozheng@purdue.edu
+",,Yao Zheng,0,none,High dim,16.1
+11,"February 25, 2019",chihwa Kao,chih-hwa.kao@uconn.edu,UConn,high dimensional econometrics,"The technological innovations in information processing and the increased storage capability have made possible to collect very large data sets in various fields of economics and finance. This session puts together 3 papers that present state-of-the-art techniques to deal with high dimensional issues in econometrics.
+List of invited speakers: 
+(1) Fa Wang, Cass Business School, Fa.Wang@city.ac.uk, ""Maximum Likelihood Estimation and Inference for High Dimensional Nonlinear Factor Models with Application to Factor-augmented Regressions"".
+(2) Yuan Liao, Rutgers Economics, yuan.liao@rutgers.edu, ""Inference for Heterogeneous Effects Using Low Rank Estimation"".
+(3) Min Seong Kim, UConn economics, min_seong.kim@uconn.edu, “Policy Analysis Using Panel and Multilevel Models with Group Interactive Fixed Effects”.
+Discussant: Jungbin Hwang, UConn economics, jungbin.hwang@uconn.edu.",,Chihwa Kao,1,none,High dim,16.2
+5,"February 5, 2019",Wen Zhou,riczw@stat.colostate.edu,Colorado State University,New Perspectives in Statistical Inference for Data with High Dimensionality,"Description : The last decades have witnessed a non-precedent growth of data-driven research, social activities, policy making processes, and business decisions. In particular, data with high dimensionality has fundamentally transformed many research fields as well as decision making processes in industrial, meanwhile demands new statistical methodology and philosophy for modeling and inference. For example, high dimensional data requires novel ideas to test traditional hypotheses for multivariate data while they can boost the power and control the false positive rate given the large number of dependent hypotheses under consideration; inference for generalized linear model under the high dimensional setting, on the other hand, reveals other new statistical perspectives including how the high dimensional geometry of the null set affects the efficiency of test and estimation; and inference on data collected from large graphs requires different statistical viewpoints on modeling high dimensional data with specific structures. In this proposed session, we will discuss some lately developed statistical techniques for high-dimensional data inference and their applications in different practical fields including bioinformatics, genomics and finance etc. 
+
+List of speakers:
+Mladen Kolar,  University of Chicago, mkolar@chicagobooth.edu 
+Daniel Sussman,  Boston University, sussman@bu.edu 
+Kai Zhang, University of North Carolina, Chapel Hill, zhangk@email.unc.edu 
+Ying Zhu, Purdue University, yingzhu@purdue.edu",,Wen Zhou,1,none,High dim,16.3
+56,"March 20, 2019",Yuping Zhang,yuping.zhang@uconn.edu,University of Connecticut,High-dimensional statistical inference and learning,"Zhou Fan, Yale University, zhou.fan@yale.edu, 
+Title: Approximate l_0-penalized estimation of piecewise-constant signals on graphs
+
+Yihong Wu, Yale University, yihong.wu@yale.edu, 
+Title: Efficient random graph matching via degree profiles 
+
+Junwei Lu, Harvard University, junweilu@hsph.harvard.edu, 
+Title: Combinatorial Inference for Brain Networks
+
+Michael Kane, Yale University, michael.kane@yale.edu, 
+Title: Graphical Model Approaches to Integrating Cell Tower and Spatial Data",,Yuping Zhang,1,none,High dim,17.1
+67,,Tamara Broderick,tbroderick@csail.mit.edu,MIT,Recent advances in high dimensional data analysis,,,,,May 17  morning or early afternoon,High dim,17.2
+23,"March 6, 2019",Jiwei Zhao,zhaoj@buffalo.edu,State University of New York at Buffalo,Novel methodology and application of machine learning techniques in data science,"With large, complex and high dimensional structure in data science, it is an exciting area of how to adopt the conventional statistical machine learning and optimization techniques. This session will showcase the use of modern learning methods to defining clinically meaningful change, clustering skewed data, estimating large spectral density matrix, and learning with robust empirical risk minimization. The four invited speakers and their talk titles are:
+1. Jiwei Zhao, SUNY Buffalo
+Title: A unified machine learning procedure for defining clinically meaningful change
+2. Sanjeena Dang, SUNY Binghamton
+Title: Clustering skewed data using mixtures of multivariate normal-inverse Gaussian distributions
+3. Sumanta Basu, Cornell University
+Title: Large spectral density matrix estimation by thresholding
+4. Yunlong Feng, SUNY Albany
+Title: Learning with robust empirical risk minimization",,"Lu Mao, University of Wisconsin at Madison, lmao@biostat.wisc.edu",1,none,High dim,17.3
+52,"March 18, 2019",Tamara Broderick,tbroderick@csail.mit.edu,MIT,"Causality, inference, and applications","Speakers, affiliations, emails, and tentative titles:
+Prof. Devavrat Shah, MIT, devavrat@mit.edu ""Multi-dimensional robust synthetic control""
+Prof. Caroline Uhler, MIT, cuhler@mit.edu ""Using interventional data for causal inference""
+Prof. Youssef Marzouk, MIT, ymarz@mit.edu ""Transportation for inference in non-Gaussian state space models""
+Prof. Tamara Broderick, MIT, tbroderick@csail.mit.edu ""The Kernel interaction trick: Fast Bayesian discovery of multi-way interactions in high dimensions""
+
+Description: The immense scale of modern data sets offers both a boon -- in our ability to detect and leverage highly complex data -- and a challenge, simultaneously statistical and computational. Moreover, in the midst of this data boom, scientists and engineers are often interested not just in predictive tasks. Rather they wish to understand relationships in the data, especially causal relationships, that reflect meaningful scientific discoveries. In this session, we explore theoretically rigorous methods that are computationally tractable at the scale of modern data sets.",,Tamara Broderick,1,May 16 morning section,Inference,16.1
+48,"March 18, 2019",Xiaoxuan Cai,xiaoxuan.cai@yale.edu,"School of Public Health, Yale University",Causal identification and models for time-varying interventions,"Session Motivation:
+
+Identifying and estimating causal effects has become a vital part of applied statistics, especially for medical interventions and policy evaluations in political science, economics and other social sciences. Identification can be challenging when there are intervention occurs at more than one time point, or if dynamic treatment strategies are used.  For example, in medical interventions, the assignment of a new treatment may depend on previous treatments and patients’ reactions to previous treatments. In sociological and infectious disease studies, one individual’s outcome may be affected by other individuals’ outcomes, in addition to their treatments, in continuous time. Innovations in the theory of causal inference with time-varying interventions have occurred rapidly in the past few years, and researchers have developed a wide variety of frameworks, causal estimands, and statistical approaches to learn causal relationships time-varying interventions. However, new methods are still underutilized in empirical applications in public health, infectious disease epidemiology, economics, and social science.
+
+We propose an invited session to address the challenges of translating theoretical advances in causal inference for time-varying interventions into routine statistical practice.  The speakers’ presentations will introduce novel methods for evaluating time-varying intervention’s effect and empirical applications of techniques, emphasizing practical implementation and real-world considerations.  The speakers are leaders in statistics, epidemiology, causal inference, and network analysis.
+
+List of speakers: 
+
+Speaker 1: Dr. Linda Valeri
+Topic: Bayesian data fusion for unmeasured confounding
+Email address:  lv2424@columbia.edu
+Affiliation: Columbia University
+
+Speaker 2: Dr. Ilya Shpister
+Topic: Estimation of Personalized Effects Associated with Causal Pathways
+Email address: ilyas@cs.jhu.edu
+Affiliation: Johns Hopkins University
+
+Speaker 3: Xiaoxuan Cai
+Topic: Identification of causal effects under contagion
+Email address: xiaoxuan.cai@yale.edu
+Affiliation: Yale University
+
+Discussant: Dr. Forrest Crawford
+Email Address: forrest.crawford@yale.edu
+Affiliation: Yale University
+",,Forrest Crawford,0,"May 16, Morning",Inference,16.2
+30,"March 11, 2019",Ting Zhang,tingz@bu.edu,Boston University,Bayesian Method and Causal Inference,"The session will be mainly focusing on Bayesian methods, Markov Chain Monte Carlo and network causal inference. Currently there are 5 speakers, and if needed, one of them can be swapped to a different invited session upon the decision of the symposium committee.
+
+Proposed Session Speakers and Their Presentation Titles: 
+1. Gautam Sabnis (gsabnis@bu.edu), Boston University, “Bayesian variable selection in linear regression models with instrumental variables”;
+2. Julio Castrillon (jcandas@bu.edu), Boston University, “Large scale kriging: a high performance multi-level computational mathematics approach”;
+3. Luis Carvalho (lecarval@bu.edu), Boston University, “Invariant objective Bayesian priors for linear models”;
+4. Joonha Park (joonhap@bu.edu), Boston University, “Multiple proposals Markov chain Monte Carlo sampling algorithms”;
+5. Wenrui Li (wenruili@bu.edu), Boston University, “Causal inference under network interference with noise”.",,"Siragan Gailus (siragan@bu.edu), Boston University",0,May 16,Inference,16.3
+3,"February 5, 2019",Wen Zhou,riczw@stat.colostate.edu,Colorado State University,Computationally Efficient Statistical Methods for Inference on Data with Complex Structures,"Description: Statistical machine learning, since emerged from the traditional machine learning and a variety of data-driven fields, has been endeavoring to provide statistical justifications on existing algorithms and develop new method with statistical guarantees. Last decades have been witnessing an unimaginable rate of data accumulation that the complexity of the data, in terms of structure, dimension, and size, has given rise to a variety of challenges in both statistics and computation. No only they demand new algorithms or models, but also provoke different statistical philosophies. For example, learning large network efficiently, recovering huge matrix with missing data of a mixed type, performing clustering analysis on data with complex distributions and outliers, and classifying data of size in gigabyte all exemplify those statistical and computational challenges. In this proposed session, we will discuss! some lately developed approaches as attempts to meet both the computational and statistical challenges in machine learning, as well as explore their statistical guarantees.
+
+List of speakers:
+
+Danning Li, Jilin University and Pennsylvania State University, lidanningxn@gmail.com
+Bharath Sriperumbudur, Pennsylvania State University, bks18@psu.edu
+Cindy Ruth, Columbia University, cynthia.rush@columbia.edu
+Wen Zhou, Colorado State University, riczw@stat.colostate.edu
+",,Yuwen Gu,1,none,Inference,17.1
+31,"March 12, 2019",Natallia V. Katenka,nkatenka@uri.edu," Department of Computer Science and Statistics, University of Rhode Island",Applications of network science and causal inference methods in public health data,"Public health studies aimed at behavior modification and substance use disorder treatment have made progress towards treating these disorders not only for those directly-treated drug users but also their social networks; however, research-to-date has been impeded due to a lack of methods to estimate how interventions permeate a risk network. The focus of this session is novel statistical methods for network-based studies and/or causal inference studies aimed at substance use disorder treatment and prevention. Individuals are embedded in social networks or communities (e.g., schools, drug use, sexual) and they exert biological and social influence on members of their networks. In these networks, public health interventions, such as pre-exposure prophylaxis for HIV, naloxone distribution, and educational interventions, could be strengthened by leveraging these disseminated or spillover effects, and intervention effects frequently depend on the network structure and intervention coverage levels. The session will have 4 speakers and a discussant. In this session, novel extensions and applications of statistical methods for network-based studies are presented, including randomization designs, respondent-driven samples, identifying which individuals should receive a network intervention, and observational studies.
+
+The first speaker, Dr. Isabel Fulcher (Research Fellow in Department Global Health and Social Medicine, Harvard Medical School, Isabel_Fulcher@hms.harvard.edu), will present “Bayesian auto-g-computation of network causal effects: incarceration and infection in a high-risk network”. 
+
+The second speaker, Olga Morozova (Postdoctoral Associate, Department of Biostatistics, Yale School of Public Health, olga.morozova@yale.edu) will present “Individualistic intervention effects under contagion.”
+
+The third speaker, Dr. Natallia Katenka (Associate Professor, College of Arts and Sciences, Department of Computer Science and Statistics, University of Rhode Island, nkatenka@uri.edu) will present  “Evaluation of Dissemination of HIV Prevention Interventions Among Networks of People Who Inject Drugs.”
+
+The last, the fourth speaker, Dr. Hilary Aroke (Instructor, Department of Pharmacy Practice, College of Pharmacy, University of Rhode Island, Kingston, RI, haroke@uri.edu) will present “Title of presentation: Social Network Analysis of an Opioid Provider-Sharing Network of Patients.”
+",,Ben Skov,1,none,Inference,17.2
+59,"March 19, 2019",Krista Gile,gile@math.umass.edu,"Department of Mathematics and Statistics, University of Massachusetts, Amherst",Inference Informed by Structure,"Many critical questions of modern statistics arise due to large amounts of data, large numbers of parameters, and high complexity of models.  One approach to these challenges, taken by deep learning, for example, is to remain agnostic to the particular problem at hand and develop general methods with minimal assumptions.  This session features talks from a variety of perspectives which take the opposite approach.  Each presents a framework for addressing a class of problems with a specific and realistic structure.  Exploiting the structure improves the quality of inference.  
+
+Leonine Alkema, lalkema@umass.edu,  Department of Biostatistics and Epidemiology, University of Massachusetts, Amherst, “Estimation in demography and global health based on structured models: quantifying the contribution of population-period-specific information”
+
+Maryclare Griffin, maryclare@cornell.edu, Cornell University and Department of Mathematics and Statistics, University of Massachusetts, Amherst, ""Structured Shrinkage Priors""
+
+Ted Westling, ted.westling@gmail.com, University of Pennsylvania and Department of Mathematics and Statistics, University of Massachusetts, Amherst, “Causal Isotonic Regression”
+
+Patrick Flaherty, flaherty@math.umass.edu, Department of Mathematics and Statistics, University of Massachusetts, Amherst, “MAP Estimation for Mixture Models via a Modern Optimization Lens""
+",,Krista Gile,0,no preference (May 16 or 17),Inference,17.2
+10,"March 6, 2019",Oleksii Mostovyi,oleksii.mostovyi@uconn.edu,University of Connecticut,Mathematical Finance,"This session will include talks on the advances of mathematical finance by junior and mid-career researchers in the field who work in universities in New England. The proposed list of the speakers includes Scott Robertson (Boston University), Yerkin Kitapbayev (MIT), Andrew Papanicolaou (NYU), and Hussein Nasralah (WPI).",,Oleksii Mostovyi,0,MAY 16 11:00-12:40,Probability,16.1
+29,"March 11, 2019",Ting Zhang,tingz@bu.edu,Boston University,Recent Advances in Time Series Analysis and Diffusion Processes,"The session will be mainly focusing on recent advances in time series analysis and diffusion processes. Details of the 4 speakers can be found below, each having 20 minutes for the presentation and 5 minutes for the Q&A.
+
+Proposed Session Speakers and Their Presentation Titles:
+1. Mamikon Ginovyan (ginovyan@bu.edu), Boston University, “Asymptotic statistical inference for Levy-driven continuous-time linear models with tapered data”;
+2. Siragan Gailus (siragan@bu.edu), Boston University, “Statistical inference for continuously- and discretely-observed multiscale diffusion processes”;
+3. Ashis Gangopadhyay (ag@bu.edu), Boston University, “A semiparametric estimation of volatility in financial time series”;
+4. Qiao Pan (qpan0316@bu.edu), Boston University, “Asymptotic behavior of optimal weighting in generalized self-normalization for time series”.",,Ting Zhang,0,May 16 Afternoon,Probability,16.2
+1,"January 5, 2019",Aleksey Polunchenko,aleksey@binghamton.edu,Binghamton University,Frontiers in Sequential Analysis with Applications,"SESSION DESCRIPTION: The session seeks to bring together statisticians from academia as well as colleagues from industry to present, discuss and explore recent developments, challenges and new opportunities in theoretical and applied sequential statistics. Particular attention is paid to latest developments in statistical methods for online anomaly detection and parameter estimation, and applications thereof in modern communication systems. A salient feature of the session is that the speakers (listed below) run the gamut – from a PhD student, to a mid-career academic professor, to a senior academic full professor and a senior industry engineer.
+
+LIST OF SPEAKERS (alphabetically ordered by last name):
+1.	Mr. Kexuan Li (PhD student, Dept of Math Sciences, Binghamton University, New York)
+EMail: kli77@binghamton.edu
+Presentation Title: On the convergence rate of the quasi- to stationary distribution for the  Shiryaev change-point detection statistic in continuous time.
+
+2.	Dr. Nitis Mukhopadhyay (Professor, Dept of Statistics, University of Connecticut—Storrs)
+EMail: nitis.mukhopadhyay@uconn.edu 
+Presentation Title: TBA
+
+3.	Dr. Aleksey Polunchenko (Associate Professor, Dept of Math Sciences, Binghamton University, New York)
+EMail: aleksey@binghamton.edu
+Presentation Title: On near-minimaxity of the Generalized Shiryaev-Roberts change-point detection procedure in continuous time.
+
+4.	Dr. Vasanthan Raghavan (Staff Engineer, Qualcomm Flarion Technologies, New Jersey)
+EMail: vasanthan_raghavan@ieee.org
+Presentation Title: TBA",,Aleksey Polunchenko,0,16-May,Probability,16.3
+64,"March 19, 2019",Ali Yousefi,yousefi@bu.edu,Postdoctoral Fellow,Advancement in the Marked-Point Process Modeling Framework for Real-Time Neural Data Analysis,"Sorting of individual spike waveforms into neuronal identities was traditionally the first step in relating population neural activity to behavior.  However, this step has the potential to introduce human bias, and skipping the step all together is preferable in certain applications, and a joint model of behavior and features of unsorted spike waveforms, called the joint mark intensity function, across the neural population can be built directly (Kloosterman et al. 2014; Deng et al. 2015; Sodkomkham et al. 2016).  Models of this type can be described using the theory of marked point process models (Daley and Vere-Jones 2003), in which a random mark variable is associated with each spike.  Marks could be the full spike waveform, or some low dimensional set of features related to the waveform, such as amplitude or half-width.  
+
+We model the joint mark intensity function parametrically as a mixture of Gaussians.  However, non-stationarities complicate the modeling, as the statistics of the marks vary over time due to instability in the recording hardware, and the relationship between neural activity and behavior can change as an animal learns or adapts to the task.  Fitting the model using all available data conflates the non-stationarity as the variability of each of the Gaussian components in the mixture.  We introduce an algorithm that uses the data not at once, but sequentially in chunks, to fit the mixture of Gaussians.  This can be interpreted as ""updating"" the model parameters when newer data arrives, and allows the model to track the non-stationarity in the data.  Parameters are updated and not re-fit completely, because at each update, the model parameters are summarized by their posterior distributions, and incorporated in the update as a prior distribution for that parameter.
+Another important aspect in advancing this modeling framework is the development of goodness-of-fit techniques which enable us to have an accurate and interpretable assessment of the fitted model to the observed full spike events. We discuss a set of new transformations for the marked-point process models of the population spiking activity which generate a new data points that are uniformly and identically distributed in the new mark and time spaces under the correct model. These transformations are the extension of the time-rescaled theorem for point-process models. Furthermore, these transformations are scalable to multi-dimensional mark spaces and provide independent and identically distributed (i.i.d) samples in hypercubes, which are best suited for uniformity tests. We discuss a list of uniformity tests applicable to multivariate uniform samples and demonstrate applications of these transformation and uniformity tests in a simulation and neural data recorded from rat hippocampus.
+Through this session, we discuss our recent research on marked-point process modeling framework and in particular, its application in real-time analysis of ensemble neural activity recorded from rat hippocampus. We then further discuss our recent research efforts on advancing the marked-point process applications in neural data analysis. We discuss about our new adaptive sequentially updated joint mark intensity function model estimation; we also discuss a set of new goodness-of-fit tools and theories we developed to assess how good the estimated marked intensity functions capture information carried in the neural data. 
+
+Speakers:  
+Dr. Uri Eden, Prof. of Statistics, Boston University
+Dr. Ali Yousefi, Instructor in Psychiatry, Harvard Medical School
+Dr. Ken Arai, Postdoctoral Research Fellow, Boston University",Ali Yousefi,Uri T Eden,1,none,Probability,17.1
+40,"March 14, 2019",Randy Paffenroth,rcpaffenroth@wpi.edu,Worcester Polytechnic Institute,Manifolds and Anomalies for Data Science,"This session is being jointly organized by Prof. Randy Paffenroth and Prof. Jian Zou at WPI.
+
+This session on manifolds and anomalies as they arise in applications of Data Science.  The key ideas include classic techniques in linear dimensionality reduction as well as more advanced methods in manifold and deep learning.  The methods discussed in this session will focus on those with applicability in the industrial applications of Data Science to problems in medicine, cyber defense, and other fields.
+
+Speakers:  
+Jian Zou, WPI, jzou@wpi.edu, Learning Low-dimensional Manifolds for the Scoring of Tissue Microarray Images
+Randy Paffenroth, WPI, rcpaffenroth@wpi.edu, Musings on Robust Dimensionality Reduction and Deep Learning
+Adam Ding, Northeastern, A.ding@neu.edu, Quantifying probability of adversarial examples in linear
+classification
+Melanie Jutras, MITRE, mjutras@mitre.org, Utilizing Matrix Norms for Dimension Reduction and Feature Selection",Randy Paffenroth,Randy Paffenroth,1,Either day but not first session in the morning,Probability/Data science,17.2
+68,,Gavino Puggioni,gpuggioni@uri.edu,,Spatial data analysis and text data analysis,,,,,,Probability/Data science,17.3
+25,"March 8, 2019",Wei Zheng,wzheng9@utk.edu,university of Tennessee,Recent advances in design of experiment,"This section focuses on recent development of design of experiment. Currently, we have three confirmed speakers. Here is a list of their names and the titles of their talks. 
+1. Qian Xiao, University of Georgia
+EzGP: Easy-to-Interpret Gaussian Process Models for Computer Experiments with Both Quantitative and Qualitative Factors
+
+2. Wanchunzi Yu, Bridgewater State University
+Robust dose-level designs for binary responses in environmental risk assessment
+
+3. Qiong Zhang, Clemson University
+Sequential Experimental Design for Optimal Decision Making",,wei zheng,0,MAY 16 11:00-12:40,Statistical modeling,16.1
+63,"March 19, 2019",Stavroula A. Chrysanthopoulou,Stavroula_Chrysanthopoulou@brown.edu,Brown University School of Public Health,Predictive Modeling in Data Science: Methods and Applications,"Session Description:
+In the new era of extraordinary advancements in computer science and information technology, and the continuously increasing abundance of available data, Data Science has emerged as a promising interdisciplinary approach for extracting, organizing and analyzing information from complicated systems. Statistics plays an essential role in exploring, describing, visualizing and interpreting the underlying variability and structure of those systems, as well as to accurately predict outcomes of interest for different scenarios in an efficient, well structured, and valid way. 
+The primary objective of this session is to discuss statistical methods for the development of complex predictive models broadly used in Data Science, and present applications in the fields of health science, policy, economics and decision making. The methodology presented in this session will cover a variety of predictive modeling approaches, including microsimulation models, deep learning algorithms, multistate and cohort models. Applications of the methodology will come from a broad spectrum ranging from health economics and medical decision making to specific approaches for modeling life data of complicated structure such as recurrent events and censoring observations.
+
+List of invited speakers:
+1.	Name: 	         Michael C. Wolfson, PhD BSc FCAHS CRC
+Position:       Professor
+Affiliation:    University of Ottawa, School of Epidemiology and Public Health
+Email: 	         Michael.Wolfson@uottawa.ca
+Title:   Applying Dynamic Microsimulation to Understand Health Inequalities
+
+2.	Name: 	        Jon A. Steingrimsson, PhD
+Position:       Assistant Professor 
+Affiliation:    Brown University, School of Public Health, Department of Biostatistics
+Email: 	         Jon_Steingrimsson@brown.edu
+Title:              Deep Learning with Time-to-event Outcomes
+
+3.	Name: 	        Petros Pechlivanoglou, PhD
+Position:       Assistant Professor 
+Affiliation:   University of Toronto, Institute for Health Policy Management and Evaluation
+Email: 	        petros.pechlivanoglou@sickkids.ca
+Title:             Using microsimulation for inference and prediction in the presence of competing risks and recurrent events: A multistate model perspective
+
+4.	Name: 	        Eric Jutkowitz, PhD
+Position:       Assistant Professor
+Affiliation:    Brown University, School of Public Health, Department of Health Services, Policy and Practice
+Email: 	       eric_jutkowitz@brown.edu
+Title:              Modeling the Lifetime Cost of Dementia Results from a Dementia Microsimulation Policy Model
+
+",,"Stavroula A. Chrysanthopoulou, PhD",1,May 16 early in the afternoon.,Statistical modeling,16.2
+60,"March 19, 2019",Lynn Kuo,lynn.kuo@uconn.edu,University of Connecticut,New Developments on Data Compatibility and Related  Topics,"New concepts on data compatibility using information measures and HPD sets will be presented. Recent developments on Bayesian density estimation and variable selection for spatial point process will also be  presented.  The followings are invited speakers, their affiliation, email and title of the talk. 
+Daoyuan Shi, Vertex, daoyuan.shi@uconn.edu,  Data Compatibility in Drug Development.  
+Wei Shi, University of Connecticut, wei.shi@uconn.edu, New Information Measures for Data Compatibility
+Yu-Bo Wang, Clemson University, yubow@clemson.edu,  Partition Weighted Approach for Estimating The Posterior Density and Its Application to Data Compatibility
+Guanyu Hu, University of Connecticut, guanyu.hu@uconn.edu, New Development of Bayesian Variable Selection Criteria for Spatial Point Process with Applications
+",Lynn Kuo,Lynn Kuo,1,Afternoons,Statistical modeling,16.3
+28,"March 11, 2019",Tevfik Aktekin,tevfik.aktekin@unh.edu,University of New Hampshire,Bayesian Methods and Applications,"The session aims to bring together scholars with interest in a broad variety of Bayesian inference, respective estimation methods, and application domains. The topics include Bayesian deep reinforcement learning, vector time series of counts, hierarchical Bayesian modeling (application: localized homelessness), and multivariate non-Gaussian state space models (application: stochastic volatility). The talk titles, authors, and affiliations are as follows:
+
+1-) Bayesian Deep Reinforcement Learning by Nick Polson, University of Chicago 
+2-) Modeling Vector Time Series of Counts by Nalini Ravishanker, University of Connecticut 
+3-) Localized Homeless Policy Informed by Hierarchical Bayesian Modeling by Chris Glynn, University of New Hampshire 
+4-) A Bayesian Family of Multivariate Non-Gaussian State Space Models by Tevfik Aktekin, University of New Hampshire 
+",,Tevfik Aktekin,0,none,Statistical modeling,17.1
+65,"March 19, 2019",Minge Xie,mxie@stat.rutgers.edu,Rutgers University,Statistical learning methods and developments,"Confirmed Speakers: 
+
+ 
+
+Jason Klusowski (jason.klusowski@rutgers.edu)
+
+Qiyang Han (qh85@stat.rutgers.edu]
+
+Guoqing Diao (gdiao@gmu.edu)
+
+ 
+
+Talk titles: 
+
+""Best Split Points for Regression Trees"" by Jason Klusowski
+
+“Limit distribution theory for multiple isotonic regression” by Qiyang Han
+
+“High Dimensional Covariate-Adjusted Semiparametric Transformation Gaussian Graphical Models” by Guoqing Diao",,TBA,0,17-May,Statistical modeling,17.2
+46,"March 18, 2019",Daoji Li,dali@fullerton.edu,"California State University, Fullerton","Novel Statistical Methods for Data Science: Discrete Data, Time Series and Data Integration","This session will focus on recent advances in statistical methods for data science, especially novel methods for discrete data, time series, and data integration.  There are 4 speakers for this session. See below for the list of invited speakers.
+
+Speaker 1: Dr. Dungang Liu (Confirmed)
+Position: Assistant Professor
+Affiliation: Department of Operations, Business Analytics, and Information Systems
+                    University of Cincinnati
+Email:  dungang.liu@uc.edu
+Presentation Title: Assessing Partial Association between Ordinal Variables: A General Framework
+
+Speaker 2: Dr. Ting Zhang (Confirmed)
+Position: Assistant Professor
+Affiliation: Department of Mathematics & Statistics, Boston University 
+Email:  tingz@bu.edu
+Presentation Title: A time_symmetric self_normalization approach for inference of time series
+
+Speaker 3: Dr. Valerie Poynor (Confirmed)
+Position: Assistant Professor
+Affiliation: Department of Mathematics, California State University, Fullerton 
+Email:  vpoynor@fullerton.edu
+Presentation Title: TBA
+
+Speaker 4: Dr. Yiwen Liu (Confirmed)
+Position: Visiting Assistant Professor 
+Affiliation: Department of Mathematics, University of Arizona
+Email:  yiwenliu@math.arizona.edu 
+Presentation Title: B-scaling: a novel nonparametric data fusion method
+
+
+",,Yiwen Liu,1,May 17 afternoon,Statistical modeling,17.3
+21,"March 6, 2019",Kerrie Nelson,kerrie@bu.edu,"Department of Biostatistics, Boston University",Topics in Correlated and Clustered Data,"Short description:  Correlated data is a key feature in many clinical and observational studies, due to the presence of longitudinal or clustered observations.  Such data raise unique challenges in estimation.  In this session we present recent developments in statistical methods for handling dependencies in clustered and correlated data.  These approaches are demonstrated in a diverse range of health settings including HIV, Alzheimer's disease, dental data, and breast cancer.
+
+Speakers:
+- Tom Chen [tomchen00@gmail.com], 
+Harvard Pilgrim Health Care Institute.
+Title: ""Robust Estimation for Recurrent Event Analysis in the Presence of Informative Event Censoring""  
+
+- Aya Mitani [amitani@bu.edu]
+Department of Biostatistics, Boston University
+Title: ""Modeling tooth loss in a longitudinal dental study with informative cluster size""
+
+- Yorghos Tripodis [yorghos@bu.edu]
+Department of Biostatistics, Boston University
+Title: ""Dynamic Factor Analysis for Multivariate Time Series: An application to cognitive trajectories""
+
+- Dongdong Li [dongdong_li@sfu.ca]
+Department of Population Medicine, Harvard Medical School and Harvard Pilgrim Health Care Institute.
+Title: ""Statistical Inference Using Large Administrative Data on Multiple Event Times, with Application to Cancer Survivorship Research"".
+",,Kerrie Nelson,0,MAY 16 11:00-12:40,Statistical modeling 1,16.1
+14,"February 26, 2019",Panpan Zhang,panpan.zhang@pennmedicine.upenn.edu,University of Pennsylvania,Advances in Network and Algorithm Analysis,"There are four invited speakers in this session.
+
+The session focuses on some modern analyses of random networks and advanced algorithms. This type of research is at the interface of theoretical probability, applied statistics, stochastic analysis and machine learning. The four speakers will present their recent work in this burgeoning area from different perspectives. Thus, this session has great potential to attract a large number of attendees to the symposium.
+
+Speaker 1: Prof. Jim Fill, Johns Hopkins University, jimfill@jhu.edu, ""Multivariate Pareto Records""
+Speaker 2: Dr. Wayne Hung, Johns Hopkins University, whung6@jhu.edu, ""QuickSort: Improved Right-tail Asymptotics for the Limiting Distribution, and Large Deviations""
+Speaker 3: Dr. Joshua Cape, Johns Hopkins University, joshua.cape@jhu.edu, ""Spectral Methods in Statistical Network Analysis""
+Speaker 4: Dr. Keith Levin, University of Michigan, klevin@umich.edu, ""Bootstrapping Methods for Random Dot Product Graphs""",Panpan Zhang,Panpan Zhang,0,"the afternoon of Thursday, April 16 (either the 14:00 session or the 16:00 session)",Statistical modeling 1,16.2
+22,"March 6, 2019",Yu (Ryan) Yue,yu.yue@baruch.cuny.edu,"Baruch College, The City University of New York",Estimating and Hypothesis Testing in Time Series and Spatial Models,"We have four speakers in this session. The session focuses on the methods of estimating and hypothesis testing in time series and spatial data models. The information and talk title for each speaker is given below.
+
+Name: Zeda Li (Baruch College, CUNY; Zeda.Li@baruch.cuny.edu)
+Title: Model-free Variable Selection with Matrix-valued Predictors
+
+Name: Zifei Han (Vertex Pharmaceuticals; hanzifei1@gmail.com)
+Title: Gaussian Copula Models for Geostatistical Count Data: Estimation and Prediction
+
+Name: Rongning Wu (Baruch College, CUNY; Rongning.Wu@baruch.cuny.edu)
+Title: Least Tail-trimmed Absolute Deviation Estimation for Autoregressions with Infinite/finite Variance
+
+Name: Victor Pena (Baruch College, CUNY; Victor.Pena@baruch.cuny.edu)
+Title: Criteria for Bayesian hypothesis testing in two-sample problems
+
+",,Yu (Ryan) Yue,0,MAY 16 16:00-17:40,Statistical modeling 1,16.3
+8,"February 11, 2019",Victor Hugo Lachos Davila,hlachos@uconn.edu,"Department of Statistics, University of Connecticut",Flexible modeling of censored data,"Measurement data can be subject to some upper and/or lower detection limits because of the
+restriction/limitation of experimental apparatus. A complication arises when these continuous
+measures present, skewness, multimodality or heavy-tailed behavior because inference can be seriously affected by the misspecification of their parametric distribution. For such data structures, we discuss some
+useful models and estimation strategies for robust estimation. The practical utility of the
+proposed methods are exemplified using real datasets and simulation studies.
+
+Organizer: Victor Hugo Lachos Davila
+Speakers:
+1)Christian Eduardo Galarza Morales 
+Affiliation:  Campinas State University/ University of Connecticut
+Title: On moments of truncated multivariate  skew-normal distribution with applications in interval censored data.  
+email:cgalarza88@gmail.com
+2) Thalita do Bem Mattos 
+Affiliation:  Campinas State University/ University of Connecticut
+Title: A semiparametric mixed-effects model for longitudinal censored data  
+email: thalitadobem@gmail.com
+3) Francisco Hildemar Calixto de Alencar
+Affiliation:  Campinas State University
+Title: Finite mixture of censored linear mixed models for longitudinal data
+email: hildemardealencar@gmail.com
+4) Larissa Avila Matos
+Affiliation:  Campinas State University
+Title: Linear mixed models for multiple censored responses data
+email: larissam@ime.unicamp.br
+",,Jorge Luis Bazan Guzman,1,none,Statistical modeling 1,17.1
+33,"March 12, 2019",Nalini Ravishanker,nalini.ravishanker@gmail.com,University of Connecticut,Novel Computational Approaches for Analyzing Time Series,"There will be four invited speakers. Here are the names, and talk titles.
+1.	Jon Hosking, Amazon. jrhosking@gmail.com
+Analytical likelihood derivatives for state space forecasting models. 
+
+2.	Henry Linder, University of Connecticut. mhlinder@gmail.com
+Structural breakpoint detection for energy consumption monitoring at UConn.
+
+3.	Haitao Liu, Worcester Polytechnic Institute. mhlinder@gmail.com
+Pattern detection via biclustering in high-frequency financial time series. 
+
+4.	Yue Tang, Pratt & Whitney. Yue.Tang@pw.utc.com
+ Application of functional principle component analysis (fPCA) in detecting aircraft engine vibration characteristics. 
+",,TBD,1,none,Statistical modeling 1,17.2
+53,"March 18, 2019",Tian Zheng,tian.zheng@columbia.edu,Columbia University,Robust Statistics for Data Science,"This session will focus on addressing robustness issues arising in statistical data science. The speakers will present recent work combining ideas stemming from the well established robust statistics theory with fundamental theoretical and practical data science considerations. The latter include developing a better understanding of the algorithmic complexity of statistical procedures, guaranteeing privacy preserving data analysis and providing tools for the analysis of complex high dimensional data.
+
+
+INVITED SPEAKERS:
+
+Name: Ankur Moitra
+Affiliation: MIT
+Email: moitra@mit.edu
+Tentative presentation title: Robustness Meets Algorithms
+
+Name: Xiaoyu Song
+Affiliation: Icahn School of Medicine at Mount Sinai
+Email: xiaoyu.song@mountsinai.org
+Tentative presentation title: Quantile based integrative analysis of multi-omic data
+
+Name: Victor-Emmanuel Brunel
+Affiliation: ENSAE ParisTech
+Email: victor.emmanuel.brunel@ensae.fr
+Tentative presentation title: On multivariate quantiles, floating bodies and Tukey half space depth
+
+Name: Marco Avella
+Affiliation: Columbia University
+Email: marco.avella@columbia.edu
+Tentative presentation title: Privacy-preserving statistical inference: a case for robust statistics",,TBA,1,none,Statistical modeling 1,17.3
+6,"February 5, 2019",Guanyu Hu,guanyu.hu@uconn.edu,University of Connecticut,New Advances in Network Data Analysis,"Prefer Time May 16th
+New Advances in Network Data Analysis
+Organizer: Guanyu Hu University of Connecticut email: guanyu.hu@uconn.edu
+Chair: Guanyu Hu University of Connecticut email:guanyu.hu@uconn.edu
+Speaker 1: Zheng (Tracy) Ke email: zke@fas.harvard.edu. Harvard University  TBA
+Speaker 2: Junxian Geng email: junxian.geng@boehringer-ingelheim.com Boehriger Ingelheim. Probabilistic Community Detection with Unknown Number of Communities 
+Speaker 3: Vince Lyzinski email: vlyzinski@umass.edu University of Massachusetts Amherst  Graph matching in edge-independent networks 
+Speaker 4: Li (Neo) Duan email: li.duan@ufl.edu University of Florida  Bayesian Modeling of Graph Laplacians",,Guanyu Hu,0,"May, 16",Statistical modeling 2,16.1
+26,"March 8, 2019",Jeff Buzas,jeff.buzas@uvm.edu,University of Vermont,Recent advances and applications of measurement error models,"The focus of the session is measurement error (primarily covariate measurement error). As data has become more complex, measurement error models have had to keep pace. Presenters will discuss novel approaches to address covariate measurement error in nonparametric models, modern uses of SIMEX, and paradoxes in hypothesis testing.    The session will appeal to statisticians interested in either methodology or applications  of covariate measurement error problems. 
+
+Presenters:  
+1. Donna Spiegelman (Yale, donna.spiegelman@yale.edu),  Title not yet available
+2. Brent Johnson (U of Rochester, Brent.Johnson@URMC.rochester.edu), Monte Carlo methods for nonparametric regression with heteroscedastic measurement error
+3. Eugene Demidenko (Dartmouth, Eugene.Demidenko@dartmouth.edu),   Who said pi?
+4. John Staudenmayer (UMASS, Amherst, jstauden@math.umass.edu).  Modern Uses of SIMEX.",Jeff Buzas,Jeff Buzas,0,MAY 16 14:00-15:40,Statistical modeling 2,16.2
+15,"March 1, 2019",Yuwen Gu,yuwen.gu@uconn.edu,University of Connecticut,New Developments of Several Classical Statistical Methods,"The four speakers will talk about new developments of classical methods across many sub-fields of statistics, such as MCMC, least squares with interactions, cross-validation and bootstrap, from the theoretical, methodological and computational perspectives. The familiar topics can attract audience from a wide variety of background, and the audience can gain a lot of insights from the new developments.
+
+The four speakers are:
+
+Chenglong Ye, School of Statistics, University of Minnesota
+Talk: High-dimensional Adaptive Minimax Sparse Estimation with Interactions
+
+Megan Heyman, Department of Mathematics, Rose-Hulman Institute of Technology
+Talk: Bootstrap in Linear Models: A Comprehensive R Package
+
+Boxiang Wang, Department of Statistics and Actuarial Science, University of Iowa
+Talk: Magic Cross-validation for Support Vector Machines and Large Margin Classifiers
+
+Dootika Vats, Department of Statistics, University of Warwick, UK
+Talk: Revisiting the Gelman-Rubin Diagnostic",,Yuwen Gu,0,MAY 16 16:00-17:40,Statistical modeling 2,16.3
+32,"March 12, 2019",Jing Qian,qian@schoolph.umass.edu,"University of Massachusetts, Amherst",Recent advances in statistical methods for missing or truncated data,"Missing or truncated data arise frequently in epidemiological studies of chronic diseases. Most recently, researchers in this area are interested in identifiability problem with truncated data, flexible hypothesis test under general dependent truncation, improvement of estimation and identification with auxiliary information with missing or truncated data. This proposed session brings together four speakers who are active researchers in this area. They will present newly developed statistical methods for estimation with missing or truncated data, all of which are motivated by clinical or epidemiological studies. The proposed session will be beneficial to both statisticians who are interested in methodology development in this area and investigators who are interested in applying new and sophisticated statistical methods to deal with missing or truncated data in practice. 
+
+Four Speakers include:
+(1)	Steven Chiou, Ph.D.
+
+Assistant Professor of Statistics
+Department of Mathematics and Statistics, University of Texas, Dallas
+Email: schiou@utdallas.edu
+
+Tentative Title: Permutation tests for general dependent truncation
+
+(2)	Chi Hyun Lee, Ph.D.
+
+Assistant Professor of Biostatistics
+Department of Biostatistics and Epidemiology, University of Massachusetts – Amherst, 
+Email: chihyunlee@umass.edu
+
+Tentative Title: Analysis of combined incident and prevalent cohort data under a proportional mean residual life model
+
+(3)	 Bella Vakulenko-Lagun, Ph.D.
+
+Postdoctoral Research Fellow
+Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA
+Email: blagun@hsph.harvard.edu
+
+Tentative Title: Nonidentifiability in the presence of factorization for truncated data
+
+(4)	Zhichao Jiang, PhD
+
+Postdoctoral Research Fellow
+Department of Statistics and Department of Government, Harvard University, Cambridge, MA
+Email: zhichao_jiang@fas.harvard.edu
+
+Tentative Title: Using Missing Types to Improve Partial Identification with Missing Binary Outcomes.
+
+",,Jing Qian,1,none,Statistical modeling 2,17.1
+44,"March 17, 2019",Xiaojing Wang,xiaojing.wang@uconn.edu,University of Connecticut,Advances in Modeling and Computation for Latent Variable Models,"Latent variable models that encode hidden patterns in the data are important in many fields, from psychology to biology, education to social network, political science to marketing and so on. Latent variables, such as ability, preferences and purchasing behaviors, are not observed directly. Instead, to study them, one must rely on surrogate data as observable indicators. The Bayesian approach provides a natural framework for studying latent variable models because hidden and observed traits can be explicitly related to one another via a joint probability model.  In this session, we will present a number of emerging novel latent variable modeling ideas and innovative computation methods with two main focuses. 
+
+
+Speaker 1: Wei Zheng, University of Maine
+
+""Parallel Markov chain Monte Carlo method for latent variable models-Bayesian dynamic item response models in educational testing""
+
+Speaker 2: Caio Lucidius N. Azevedo,  University of Campinas
+""Multidimensional multiple group IRT models with skew normal latent trait distributions"" 
+
+Speaker 3:  Jorge Luis Bazan Guzman, São Paulo University
+""A Bayesian Cognitive Diagnosis Model for Continuous Response""
+
+Speaker 4:  Xiaojing Wang, University of Connecticut
+""Simultaneously Modeling and Detecting Local Dependence in Dynamic Item
+Response Models""",,"Xiaojing Wang, University of Connecticut",1,none,Statistical modeling 2,17.2
+49,"March 18, 2019",Aditya kumar Mishra,amishra@flatironinstitute.org,"Flatiron Institute, Simons Foundation",Statistical advances in microbiome data analysis,"Session Title:  Statistical advances in microbiome data analysis 
+Session Organizer: Aditya Mishra, Flatiron Institute, Simons Foundation, NY
+Session Chair: Christian L. Mueller, Flatiron Institute, Simons Foundation, NY
+
+
+Speakers 
+Huilin Li, Department of Population Health, NYU Langone Health
+Email: Huilin.Li@nyulangone.org
+Title: Causal Mediation Inference in Microbiome Research
+
+Himel Mallick, Research Fellow, Harvard University
+Email: hmallick@hsph.harvard.edu
+Title: Multivariable Association in Population-scale Metagenomic Surveys
+
+Aditya Mishra, Center of Computational Mathematics, Flatiron Institute, Simons Foundation, New York
+Email: amishra@flatironinstitute.org
+Title: Robust regression for microbiome data analysis
+
+
+With recent advances in low-cost 16S rRNA sequencing technique, we have access to data sets about microbial communities abundance and its host environments like human, ocean or soil. However, analyzing these large and complex data to understand the microbial ecosystem comes with particular statistical challenges, including compositionality, over-dispersion, and zero-inflation. In particular, inferring causality, understanding multivariate association among the microbial community, and robust modeling of phenotypes remains a paramount open problem. In this session, we bring experts with a focus on using and developing statistical methods to solve the data analysis problems in microbiome research. Our speaker will present novel statistical regression, mediation, and network inference techniques that address these important tasks.
+
+  
+The first speaker, Huilin Li (Department of Population Health, NYU Langone Health), will present a method for causal mediation analysis of high dimensional and compositional microbiome data. The second speaker, Himel Mallick (Reseach Fellow, Harvard University), will introduce a multivariate association statistics to measure ecological and functional interactions from microbiome count data. Our last speaker Aditya Mishra (Center for Computational Mathematics, Flatiron Institute) will present a novel robust regression framework for compositional data, with an application to gut microbiome data. 
+",,Christian Mueller,1,none,Statistical modeling 2,17.3

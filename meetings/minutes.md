@@ -1,3 +1,65 @@
+## 4/10/2019
+
+PSAV: need to bring a projector (cable; needs test)
+
+Photographer: 6 hours
+
+CRC books: Hilton address sent to David Grubbs
+
+Announcement: update with Munich Re reception
+
+## 4/4/2019
+
++ Flyer on sessions:
+    - data science in action
+	- educational sessions
+	- Rick's session
+
++ Food (head count)
+    - lunches/banquet/reception
+	- menu (Kate)
+	- drink?
+	
++ Wednesday dinner 
+    - 6 + 3 + NESS
+
++ script + thanks
+
++ room assignment
+    - session chairs and abstracts
+
++ registration packet
+    - name tag
+	- schedule
+	- biosketch for keynote
+	- flyers
+	- 2020 ness
+	- Kate?
+
+## 3/13/2019
+
+Items for Friday
++ network
++ tables (registration and sponsors)
++ poster space
++ reception space
++ sign AV contract
+
+Rick's special session
+
+Sessions reshuffling
+
+Promotion short courses
+
+Sponsor
+
+Registraion folder
+Name Tag
+
+
+Q: is a student in an invited sessions eligible for student paper?
+Q: session mixing (bu has two exclusive sessions)
+
 ## 3/11/2019
 
 Whova demo
