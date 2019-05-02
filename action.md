@@ -50,6 +50,14 @@ Assign rooms
 Executive committee
 Panel sessions
 
+# Poster
+
+Painter's tape
+Numbers
+One-page advertisement slide
+
+# Web receiver for slides
+
 # Program book
 
 + print
