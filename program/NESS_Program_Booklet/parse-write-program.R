@@ -197,7 +197,7 @@ lapply(1:length(se_schd),
        function(ind) {
          time <- strsplit(names(se_schd)[ind], ",")[[1]][-1]
          list(l = se_schd[[ind]],
-              label = paste0("Parallel Session:", time[1], ",", time[2]))
+              label = paste0("Parallel Sessions:", time[1], ",", time[2]))
        })
 
 ## order of speakers
@@ -210,6 +210,9 @@ for (timeslot in sessions) {
     lines_program <- c(lines_program, sprintf("\\subsection*{%s}\n\\addcontentsline{toc}{subsection}{%s}", timeslot$label, timeslot$label), "")
     for (session in split(l, 1:nrow(l))) {
         names(session) <- colnames(timeslot$l)
+        ## get room info for the session
+        session_room <- room$room[which(room$id == session["id"])]
+        lines_program <- c(lines_program, sprintf("\\emph{Location: %s}", session_room), "")
         ## lines_program <- c(lines_program, sprintf("\\subsubsection*{%s}\n\\addcontentsline{toc}{subsubsection}{%s}", paste0(session["id"], ": ", session["title"]), session["title"]))
         lines_program <- c(lines_program, sprintf("\\subsubsection*{%s}\n\\addcontentsline{toc}{subsubsection}{%s}", paste(s_num, session["title"], sep=". "), session["title"]))
         lines_program <- c(lines_program, "")
@@ -296,9 +299,6 @@ for (timeslot in sessions) {
         if(!is.na(order_abs$discussant)) {
           lines_program <- c(lines_program, sprintf("\\emph{Discussant:} %s", order_abs$discussant), "")
         }
-        ## get room info for the session
-        session_room <- room$room[which(room$id == session["id"])]
-        lines_program <- c(lines_program, sprintf("\\emph{Location: %s}", session_room), "")
         s_num <- s_num + 1
     }
 }
