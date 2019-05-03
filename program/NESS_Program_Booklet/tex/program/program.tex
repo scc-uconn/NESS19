@@ -22,6 +22,12 @@
 \setlist[enumerate]{leftmargin=*, topsep=0pt,itemsep=2pt,partopsep=0pt,parsep=0pt}
 \setitemize{leftmargin=*, noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt}
 
+% lines around section title
+\usepackage{titlesec}
+\titleformat{\subsection}[block]
+  {\titlerule\addvspace{0pt}\normalfont\fontsize{10}{16}\bfseries}
+  {}{0pt}{}[\vspace{4pt}\titlerule]
+
 \setlength{\parindent}{0em}
 \setlength{\parskip}{0.5em}
 \setlength{\columnsep}{2em}
