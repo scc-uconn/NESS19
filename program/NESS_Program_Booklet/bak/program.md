@@ -163,7 +163,7 @@ Banquet Talk
 <h4 class="mb-3">Friday, May 17, 13:10-14:50</h4>
 <table class="table table-hover">
   <tr> <th> Session Title </th> <th> Organizer </th> <th> Session ID </th>  </tr>
-  <tr> <td> Probability, Statistics and Geometry: A Special Session Honoring Rick Vitale </td> <td> Jun Yan </td> <td> NESS19-IS-9 </td> </tr>
+  <tr> <td> Probability, Statistics and Geometry: A Special Session Honoring Richard Vitale </td> <td> Jun Yan </td> <td> NESS19-IS-9 </td> </tr>
   <tr> <td> Novel Methodology and Application of Machine Learning Techniques in Data Science </td> <td> Jiwei Zhao </td> <td> NESS19-IS-23 </td> </tr>
   <tr> <td> Statistical Tools for Addressing the Opioid Epidemic </td> <td> Zehang Richard Li </td> <td> NESS19-IS-24 </td> </tr>
   <tr> <td> Challenges and New Advances in Complex Clinical Trials </td> <td> Shuangge Ma </td> <td> NESS19-IS-34 </td> </tr>
