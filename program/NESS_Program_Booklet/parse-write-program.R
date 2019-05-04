@@ -207,17 +207,17 @@ room <- read_csv("bak/room_assign.csv")
 s_num <- 1
 for (timeslot in sessions) {
     l <- as.matrix(timeslot$l)
-    lines_program <- c(lines_program, sprintf("\\subsection*{%s}\n\\addcontentsline{toc}{subsection}{%s}", timeslot$label, timeslot$label), "")
+    lines_program <- c(lines_program, sprintf("\\phantomsection \\subsection*{%s}\n\\addcontentsline{toc}{subsection}{%s}", timeslot$label, timeslot$label), "")
     for (session in split(l, 1:nrow(l))) {
         names(session) <- colnames(timeslot$l)
         ## get room info for the session
         session_room <- room$room[which(room$id == session["id"])]
         # lines_program <- c(lines_program, sprintf("", session_room), "")
         if(all(session == split(l, 1:nrow(l))[[1]])) {
-          lines_program <- c(lines_program, sprintf("\\vbox{\\emph{Location: %s} \\\\ \\subsubsection*{%s}}\n\\addcontentsline{toc}{subsubsection}{%s}", 
+          lines_program <- c(lines_program, sprintf("\\phantomsection \\vbox{\\emph{Location: %s} \\\\ \\subsubsection*{%s}}\n\\addcontentsline{toc}{subsubsection}{%s}", 
                                                     session_room, paste(s_num, session["title"], sep=". "), session["title"]))
         } else{
-          lines_program <- c(lines_program, sprintf("\\vspace{16pt}\\vbox{\\emph{Location: %s} \\\\ \\subsubsection*{%s}}\n\\addcontentsline{toc}{subsubsection}{%s}", 
+          lines_program <- c(lines_program, sprintf("\\phantomsection \\vspace{16pt}\\vbox{\\emph{Location: %s} \\\\ \\subsubsection*{%s}}\n\\addcontentsline{toc}{subsubsection}{%s}", 
                                                     session_room, paste(s_num, session["title"], sep=". "), session["title"]))
         }
         lines_program <- c(lines_program, "")
