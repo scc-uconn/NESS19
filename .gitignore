@@ -8,3 +8,4 @@ program/NESS_Program_Booklet/tex/program/program.pdf
 *.log
 *.out
 *.toc
+*.Rhistory

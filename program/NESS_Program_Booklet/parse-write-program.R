@@ -212,9 +212,14 @@ for (timeslot in sessions) {
         names(session) <- colnames(timeslot$l)
         ## get room info for the session
         session_room <- room$room[which(room$id == session["id"])]
-        lines_program <- c(lines_program, sprintf("\\emph{Location: %s}", session_room), "")
-        ## lines_program <- c(lines_program, sprintf("\\subsubsection*{%s}\n\\addcontentsline{toc}{subsubsection}{%s}", paste0(session["id"], ": ", session["title"]), session["title"]))
-        lines_program <- c(lines_program, sprintf("\\subsubsection*{%s}\n\\addcontentsline{toc}{subsubsection}{%s}", paste(s_num, session["title"], sep=". "), session["title"]))
+        # lines_program <- c(lines_program, sprintf("", session_room), "")
+        if(all(session == split(l, 1:nrow(l))[[1]])) {
+          lines_program <- c(lines_program, sprintf("\\vbox{\\emph{Location: %s} \\\\ \\subsubsection*{%s}}\n\\addcontentsline{toc}{subsubsection}{%s}", 
+                                                    session_room, paste(s_num, session["title"], sep=". "), session["title"]))
+        } else{
+          lines_program <- c(lines_program, sprintf("\\vspace{16pt}\\vbox{\\emph{Location: %s} \\\\ \\subsubsection*{%s}}\n\\addcontentsline{toc}{subsubsection}{%s}", 
+                                                    session_room, paste(s_num, session["title"], sep=". "), session["title"]))
+        }
         lines_program <- c(lines_program, "")
         ## handle session chair
         if(is.na(session["chair"]) | session["chair"] == "TBD" | session["chair"] == "TBA") {
@@ -253,7 +258,11 @@ for (timeslot in sessions) {
         lines_program <- c(lines_program, "\\end{enumerate}", "")
         # lines_program <- c(lines_program, "")
         ## get speakers
-        speakers <- df_papers[which(df_papers$session == session["id"]), ]
+        if(session["id"] == "NESS19-IS-41") {
+          speakers <- df_papers[which(df_papers$session == "none"), ]
+        } else {
+          speakers <- df_papers[which(df_papers$session == session["id"]), ]
+        }
         ## get the order of speakers
         order_abs <- abs_order[which(paste0("NESS19-IS-", abs_order$id) == session["id"]), ]
         
@@ -277,7 +286,7 @@ for (timeslot in sessions) {
           if(is.na(order_abs$Panelist)) {
             lines_program <- c(lines_program, "To Be Added", "")
           } else {
-            panelists <-strsplit(order_abs$Panelist, "\r")[[1]]
+            panelists <-strsplit(order_abs$Panelist, "(\r|\n)")[[1]]
             lines_program <- c(lines_program, "\\begin{itemize}")
             for (panelist in panelists) {
               panelist <- gsub("&", "\\&", panelist, fixed=TRUE)
