@@ -321,6 +321,7 @@ if (write_detailed_program) {
 ## Write abstracts
 
 lines_abstract <- ""
+s_num <- 1
 for (timeslot in sessions) {
     l <- as.matrix(timeslot$l)
     lines_abstract <- c(lines_abstract, sprintf("\\subsection*{%s}", timeslot$label), "")
@@ -338,7 +339,7 @@ for (timeslot in sessions) {
       }
       
       if (nrow(speakers) > 0) {
-        lines_abstract <- c(lines_abstract, sprintf("\\subsubsection*{%s}", session["title"]), "")
+        lines_abstract <- c(lines_abstract, sprintf("\\subsubsection*{%s}", paste(s_num, session["title"], sep=". ")), "")
         lines_abstract <- c(lines_abstract, "\\begin{itemize}")
         for (i in 1:nrow(speakers)) {
           p <- speakers[i, ]
@@ -351,7 +352,9 @@ for (timeslot in sessions) {
         }
         lines_abstract <- c(lines_abstract, "\\end{itemize}", "")
       }
+      s_num <- s_num + 1
     }
+    
 }
 
 if (write_abstracts) {
