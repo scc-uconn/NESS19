@@ -312,6 +312,13 @@ for (timeslot in sessions) {
     }
 }
 
+lines_program <- gsub("\\item [\\emph{Chair:}] \\textbf{Elizabeth Schifano}, University of Connecticut", 
+                      "\\item [\\emph{Chair:}] \\textbf{Elizabeth Schifano}, University of \\\\Connecticut", lines_program, fixed = TRUE)
+
+lines_program <- gsub("\\vspace{16pt}\\vbox{\\emph{Location: Nathan Hale South} \\\\ \\subsubsection*{18. Healthcare Data Analysis for Electronic Health Records}}", 
+                      "\\vspace{16pt}\\vbox{\\emph{Location: Nathan Hale South} \\\\ \\subsubsection*{18. Healthcare Data Analysis for Electronic \\\\ Health Records}}", 
+                      lines_program, fixed = TRUE)
+
 if (write_detailed_program) {
     f <- file(outprogram)
     writeLines(lines_program, f)
