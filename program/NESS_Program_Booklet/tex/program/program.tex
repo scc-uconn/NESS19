@@ -16,9 +16,26 @@
 \usepackage{afterpage,adjustbox}
 \usepackage{url}
 
+\usepackage{microtype}
+
+\newenvironment{raggedmulticols}[1]{%
+  \RaggedRight
+  \begin{multicols}{#1}%
+}{%
+  \end{multicols}%
+}
+
 \usepackage{enumitem}
-\setlist[enumerate]{leftmargin=*, topsep=0pt,itemsep=2pt,partopsep=0pt,parsep=0pt}
-\setitemize{leftmargin=*, noitemsep,topsep=0pt,parsep=2pt,partopsep=0pt}
+\setlist[enumerate]{leftmargin=*, topsep=0pt,itemsep=2pt,partopsep=0pt,parsep=0pt, before=\vspace{-8pt}, after=\vspace{-3pt}}
+\setitemize{leftmargin=*, noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+% lines around section title
+\usepackage{titlesec}
+\titleformat{\subsection}[block]
+  {\titlerule\addvspace{0pt}\normalfont\fontsize{10}{16}\bfseries}
+  {}{0pt}{}[\vspace{4pt}\titlerule]
+\titlespacing\subsubsection{0pt}{-4pt}{0pt}
+
 
 \setlength{\parindent}{0em}
 \setlength{\parskip}{0.5em}
@@ -29,35 +46,219 @@
 
 \begin{document}
 
+\hspace{0pt}
+\vfill
+
+\begin{center}
+  \includegraphics{bag.jpg}
+\end{center}
 \addcontentsline{toc}{section}{Cover}
+\thispagestyle{empty}
+
+\vfill
+
+\clearpage
+
+\phantomsection
+\begin{center}
+  {\bf\Huge Conference Rooms / Floor Map}
+\end{center} 
+\bigskip
+\addcontentsline{toc}{section}{Conference Rooms/Floor Map}
+
+The conference takes place on 3 floors:
+
+\vfill
+\begin{itemize}
+\item 2nd floor: Salon A; Salon B; Salon C
+  \vfill
+  \includegraphics[page=3, width=\textwidth, viewport=.23in 5.3in
+  8.1in 9.07in, clip=true]{hilton.pdf}
+  \vfill
+\item 3rd floor: Mark Twain; Nathan Hale South; Nathan Hale North;
+  Silas Deane; Colt; Wadsworth; Ethan Allen
+  \vfill
+  \includegraphics[page=3, width=\textwidth, viewport=.23in 1.66in
+  8.1in 4.9in, clip=true]{hilton.pdf}
+  \vfill
+\item 6th floor: Saratoga A (which is one of the only two meeting rooms on this floor)
+\end{itemize}
+
+\vfill
+All the plenary events and food/drink services are held in the Hilton
+Ballroom on 3rd floor.
+
+\clearpage
 
 \section*{\centering NESS 2019 Program}
-\addcontentsline{toc}{section}{Table of Contents}
+% \addcontentsline{toc}{section}{Table of Contents}
 {\centering \small \tableofcontents}
+
+\clearpage
+
+\phantomsection
+\begin{center}
+  {\bf\Huge Plenary Sessions}
+\end{center}
+\addcontentsline{toc}{section}{Plenary Sessions}
+
+\subsection*{HSB Welcoming Reception: \hfill
+  5:00--6:30 pm, Wednesday, May 15, 2019}
+
+Sponsored by Munich Re Group -- The Hartford Steam Boiler Inspection and Insurance Co.
+
+\subsection*{Welcoming Remark: \hfill 9:00--9:10, Thursday, May 16, 2019}
+
+{\bf Chair:} Jun Yan, University of Connecticut
+
+{\bf Welcome to the 33rd New England Statistics Symposium}
+
+\emph{Dr. Ming-Hui Chen}
+(2019 President of the New England Statistical Society):
+University of Connecticut
+
+\subsection*{Keynote Addresses: \hfill 9:10--10:45 am, Thursday, May
+  16, 2019}
+
+{\bf Chair:} Haim Bar, University of Connecticut
+
+\noindent
+{\bf Big Data, Google and Disease Detection: A Statistical Adventure}
+
+\emph{Dr. Samuel Kou, Harvard University}
+
+Big data collected from the internet have generated significant
+interest in not only the academic community but also industry and
+government agencies. They bring great potential in tracking and
+predicting massive social activities. We focus on tracking disease
+epidemics in this talk. We will discuss the applications, in
+particular, Google Flu Trends, some of the fallacy and the statistical
+implications. We will propose a new model that utilizes publicly
+available online data to estimate disease epidemics. Our model
+outperforms all previous real-time tracking models for influenza
+epidemics at the national level of the US. An extended version of the
+model gives accurate tracking of Dengue fever in Asian and South
+American countries. We will also draw some lessons for big data
+applications.
+
+{\bf Machine Learning for Structured and Unstructured Data in Finance}
+
+\emph{Dr. David Rosenberg / Dr. Amanda Stent, Bloomberg}
+
+Today's finance industry is continuously searching for alpha, through
+more advanced modeling and through alternative sources of data. Many
+alternative sources of data are not raw numerical data but structured
+and unstructured documents - tables, graphics and text. In this talk,
+we present ML methods for extracting information from documents. We
+also present a case study of how such information can be combined with
+market data for better predictive modeling.
+
+
+\subsection*{Banquet Address (paid event):  \hfill 7:00 pm, Thursday, May 16, 2019}
+
+{\bf Chair:}
+Dr. Xiao-Li Meng (2018 President of the New England
+Statistical Society), Harvard University
+
+\noindent
+{\bf Improving Patient Outcomes in Prostate Cancer by Partnering
+  Statistics and Medicine}
+
+\emph{Dr. Anthony D'Amico, Dana-Farber Cancer Institute and Brigham \& Women's Hospital}
+
+Several examples of how statistical methodology was used to improve
+patient care and prostate cancer control outcomes will be discussed.
+
+
+\subsection*{Chernoff Lecture: \hfill 3:10--4:20 pm, Friday, May 17, 2019}
+{\bf Chair:}
+Dr. Joseph Capelleri (2020 President of the New England
+Statistical Society),  Pfizer
+
+{\bf Title: TBA}
+Sorry, we do not know who the inaugural Chernoff Awardee is. Come to the
+lecture to find out!
+
+\subsection*{Award Ceremony: \hfill 4:20--4:40 pm, Friday, May 17, 2019}
+
+{\bf Chair:} HaiYing Wang, University of Connecticut
+
+{\bf Trevelers Stat-a-thon}:
+% presented by
+Tyler Kleykemp (CT Office of Policy and Management) and
+Kathy Ziff (Travelers)
+\\
+% \hfill
+{\bf LIberty Mutual Student Poster}:
+% presented by 
+ Valerie Nazzaro (Wesleyan University) and
+ Zhenkui Zhang (Liberaty Mutual)
+\\
+%\hfill
+{\bf IBM Student Paper}:
+% Presented by
+ Stefa Etchegaray (IBM) and
+ Yuping Zhang (University of Connecticut)
+
+
+\clearpage
+
+\phantomsection
+\includepdf[pages={2}, pagecommand={}]{../../../../flyers/symposium2019.pdf}
+\addcontentsline{toc}{section}{Highlights on Statistical Data Science in Action}
 
 \clearpage
 
 \newgeometry{margin=0.75in}
 \twocolumn
-% \raggedright
+\raggedright
 
 \twocolumn[
-\centering {\bf\Huge Detailed Program}
+\phantomsection
+\centering {\bf\Huge Parallel Sessions}
 \bigskip
 ]
-\addcontentsline{toc}{section}{Detailed Program}
+\addcontentsline{toc}{section}{Parallel Sessions}
 \input{out/detailed-program.tex}
 
 \clearpage
 
-\onecolumn
+\twocolumn[
+\phantomsection
+\centering {\bf\Huge Statathon and Posters}
+\bigskip
+\addcontentsline{toc}{section}{Statathon and Posters}
+]
+
+\phantomsection
+\subsection*{Travelers Stat-a-thon 2019}
+\addcontentsline{toc}{subsection}{Travelers Stat-a-thon 2019}
+\begin{itemize}
+\item \textbf{Theme 1:} Connecticut Housing \\
+  Location: Ethan Allen\\
+  Time: Thursday, May 16, 11:00-12:40
+\item \textbf{Theme 2:} Customer Retention \\
+  Location: Ethan Allen\\
+  Time: Thursday, May 16, 14:00-15:40
+\end{itemize}
+
+\phantomsection
+\subsection*{Poster Session: May 16, 17:40-19:00}
+\addcontentsline{toc}{subsection}{Poster Session}
+\vspace{8pt}
+\input{out/posters.tex}
+
+\clearpage
 
 \twocolumn[
+\phantomsection
 \centering {\bf\Huge Abstracts of Invited Papers}
 \bigskip
 ]
 \addcontentsline{toc}{section}{Abstracts of Invited Papers}
 \input{out/abstracts.tex}
+
+
 
 % \newpage
 
@@ -73,5 +274,15 @@
 % \scriptsize
 % \input{out/participants.tex}
 % \end{multicols}
+
+% back cover; sponsors' (full page for Platinum; half page for Golden)
+
+\onecolumn
+\includegraphics[width=\textwidth]{travelers.pdf}
+\hfill
+\includegraphics[width=\textwidth]{liberty.pdf}
+
+\clearpage
+\includegraphics[page=1, width=\textwidth]{hsb.pdf}
 
 \end{document}

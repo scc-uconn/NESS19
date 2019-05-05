@@ -1,1 +1,12 @@
 *.DS_store
+flyers/symposium2019.pdf
+program/NESS_Program_Booklet/bak/SessionProposal.csv
+program/NESS_Program_Booklet/bak/abstract.csv
+program/NESS_Program_Booklet/bak/registration.csv
+program/NESS_Program_Booklet/tex/program/program.pdf
+*.aux
+*.log
+*.out
+*.toc
+*.Rhistory
+program/NESS_Program_Booklet/tex/program/image/

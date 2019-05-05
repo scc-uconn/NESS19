@@ -24,7 +24,8 @@ capitalizeName <- function(s) {
         toTitleCase %>%
         gsub("(^|[[:space:]])([[:alpha:]])", "\\1\\U\\2", ., perl=TRUE) %>%
         gsub("De ", "de ", .) %>% 
-        gsub("Eric Mick, Scd", "Eric Mick, ScD", ., fixed = TRUE)
+        gsub("Eric Mick, Scd", "Eric Mick, ScD", ., fixed = TRUE) %>%
+        gsub("John J Ragland Ii", "John J Ragland II", ., fixed = TRUE)
 }
 
 capitalize <- function(s) {
@@ -196,43 +197,55 @@ lapply(1:length(se_schd),
        function(ind) {
          time <- strsplit(names(se_schd)[ind], ",")[[1]][-1]
          list(l = se_schd[[ind]],
-              label = paste0("Parallel Session:", time[1], ",", time[2]))
+              label = paste0("Parallel Sessions:", time[1], ",", time[2]))
        })
 
 ## order of speakers
 abs_order <- read_csv("bak/order_discussant.csv")
-
+## read room information
+room <- read_csv("bak/room_assign.csv")
+s_num <- 1
 for (timeslot in sessions) {
     l <- as.matrix(timeslot$l)
-    lines_program <- c(lines_program, sprintf("\\subsection*{%s}\n\\addcontentsline{toc}{subsection}{%s}", timeslot$label, timeslot$label), "")
+    lines_program <- c(lines_program, sprintf("\\phantomsection \\subsection*{%s}\n\\addcontentsline{toc}{subsection}{%s}", timeslot$label, timeslot$label), "")
     for (session in split(l, 1:nrow(l))) {
         names(session) <- colnames(timeslot$l)
-        lines_program <- c(lines_program, sprintf("\\subsubsection*{%s}\n\\addcontentsline{toc}{subsubsection}{%s}", paste0(session["id"], ": ", session["title"]), session["title"]))
+        ## get room info for the session
+        session_room <- room$room[which(room$id == session["id"])]
+        # lines_program <- c(lines_program, sprintf("", session_room), "")
+        if(all(session == split(l, 1:nrow(l))[[1]])) {
+          lines_program <- c(lines_program, sprintf("\\phantomsection \\vbox{\\emph{Location: %s} \\\\ \\subsubsection*{%s}}\n\\addcontentsline{toc}{subsubsection}{%s}", 
+                                                    session_room, paste(s_num, session["title"], sep=". "), session["title"]))
+        } else{
+          lines_program <- c(lines_program, sprintf("\\phantomsection \\vspace{16pt}\\vbox{\\emph{Location: %s} \\\\ \\subsubsection*{%s}}\n\\addcontentsline{toc}{subsubsection}{%s}", 
+                                                    session_room, paste(s_num, session["title"], sep=". "), session["title"]))
+        }
         lines_program <- c(lines_program, "")
         ## handle session chair
         if(is.na(session["chair"]) | session["chair"] == "TBD" | session["chair"] == "TBA") {
           session["chair"] <- session["organizer"]
         }
         lines_program <- c(lines_program, "\\begin{enumerate}[align=left]")
-        orgchair <- grepl(toupper(session["organizer"]), toupper(session["chair"]))
+        orgchair <- grepl(toupper(session["organizer"]), toupper(session["chair"])) | 
+          toupper(session["organizer"]) == toupper(session["chair"])
         if(orgchair) {
           if(is.na(session["affiliation"])) {
-          lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s} \\\\", 
+          lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s}", 
                                                     capitalizeName(session["organizer"])))
           lines_program <- c(lines_program, sprintf("\\item [\\emph{Chair:}] \\textbf{%s}", 
                                                     capitalizeName(session["organizer"])))
           } else {
-            lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s}, %s \\\\", 
+            lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s}, %s", 
                                                       capitalizeName(session["organizer"]), capitalize(session["affiliation"])))
             lines_program <- c(lines_program, sprintf("\\item [\\emph{Chair:}] \\textbf{%s}, %s", 
                                                       capitalizeName(session["organizer"]), capitalize(session["affiliation"])))
           }
         } else {
           if(is.na(session["affiliation"])) {
-            lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s} \\\\", 
+            lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s}", 
                                                       capitalizeName(session["organizer"])))
           } else {
-            lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s}, %s \\\\", 
+            lines_program <- c(lines_program, sprintf("\\item [\\emph{Organizer:}] \\textbf{%s}, %s", 
                                                       capitalizeName(session["organizer"]), capitalize(session["affiliation"])))
           }
           chair_ext <- as.vector(str_split_fixed(session["chair"], ",", n = 2))
@@ -245,7 +258,11 @@ for (timeslot in sessions) {
         lines_program <- c(lines_program, "\\end{enumerate}", "")
         # lines_program <- c(lines_program, "")
         ## get speakers
-        speakers <- df_papers[which(df_papers$session == session["id"]), ]
+        if(session["id"] == "NESS19-IS-41") {
+          speakers <- df_papers[which(df_papers$session == "none"), ]
+        } else {
+          speakers <- df_papers[which(df_papers$session == session["id"]), ]
+        }
         ## get the order of speakers
         order_abs <- abs_order[which(paste0("NESS19-IS-", abs_order$id) == session["id"]), ]
         
@@ -256,7 +273,7 @@ for (timeslot in sessions) {
           # print(speakers$id == as.numeric(str_split(order_abs$order, "-")[[1]]))
         }
         if(nrow(speakers) > 0) {
-          lines_program <- c(lines_program, "\\begin{enumerate}")
+          lines_program <- c(lines_program, "\\begin{itemize}")
           for (k in 1:nrow(speakers)) {
             speaker <- speakers[k, ]
             lines_program <- c(lines_program, sprintf("\\item \\textbf{%s}, %s \\\\",
@@ -264,16 +281,43 @@ for (timeslot in sessions) {
                                                       capitalize(speaker$affiliation)))
             lines_program <- c(lines_program, sprintf("%s", capitalize(toTitleCase(speaker$title))))
           }
-          lines_program <- c(lines_program, "\\end{enumerate}", "")
+          lines_program <- c(lines_program, "\\end{itemize}", "")
         } else {
-          lines_program <- c(lines_program, "To Be Added", "")
+          if(is.na(order_abs$Panelist)) {
+            lines_program <- c(lines_program, "To Be Added", "")
+          } else {
+            panelists <-strsplit(order_abs$Panelist, "(\r|\n)")[[1]]
+            lines_program <- c(lines_program, "\\begin{itemize}")
+            for (panelist in panelists) {
+              panelist <- gsub("&", "\\&", panelist, fixed=TRUE)
+              if(length(strsplit(panelist, ";")[[1]]) == 3) {
+                lines_program <- c(lines_program, sprintf("\\item \\textbf{%s}, %s \\\\",
+                                                          strsplit(panelist, ";")[[1]][1],
+                                                          strsplit(panelist, ";")[[1]][2]))
+                lines_program <- c(lines_program, sprintf("%s", strsplit(panelist, ";")[[1]][3]))
+              } else {
+                lines_program <- c(lines_program, sprintf("\\item \\textbf{%s} \\\\",
+                                                          strsplit(panelist, ";")[[1]][1]))
+                lines_program <- c(lines_program, sprintf("%s", strsplit(panelist, ";")[[1]][2]))
+              }
+
+            }
+            lines_program <- c(lines_program, "\\end{itemize}", "")
+          }
         }
         if(!is.na(order_abs$discussant)) {
           lines_program <- c(lines_program, sprintf("\\emph{Discussant:} %s", order_abs$discussant), "")
-          # lines_program <- c(lines_program, sprintf("\\emph{%s} \\\\[.5em]", session["location"]), "")
         }
+        s_num <- s_num + 1
     }
 }
+
+lines_program <- gsub("\\item [\\emph{Chair:}] \\textbf{Elizabeth Schifano}, University of Connecticut", 
+                      "\\item [\\emph{Chair:}] \\textbf{Elizabeth Schifano}, University of \\\\Connecticut", lines_program, fixed = TRUE)
+
+lines_program <- gsub("\\vspace{16pt}\\vbox{\\emph{Location: Nathan Hale South} \\\\ \\subsubsection*{18. Healthcare Data Analysis for Electronic Health Records}}", 
+                      "\\vspace{16pt}\\vbox{\\emph{Location: Nathan Hale South} \\\\ \\subsubsection*{18. Healthcare Data Analysis for Electronic \\\\ Health Records}}", 
+                      lines_program, fixed = TRUE)
 
 if (write_detailed_program) {
     f <- file(outprogram)
@@ -284,6 +328,7 @@ if (write_detailed_program) {
 ## Write abstracts
 
 lines_abstract <- ""
+s_num <- 1
 for (timeslot in sessions) {
     l <- as.matrix(timeslot$l)
     lines_abstract <- c(lines_abstract, sprintf("\\subsection*{%s}", timeslot$label), "")
@@ -301,7 +346,7 @@ for (timeslot in sessions) {
       }
       
       if (nrow(speakers) > 0) {
-        lines_abstract <- c(lines_abstract, sprintf("\\subsubsection*{%s}", paste0(session["id"], ": ", session["title"])), "")
+        lines_abstract <- c(lines_abstract, sprintf("\\subsubsection*{%s}", paste(s_num, session["title"], sep=". ")), "")
         lines_abstract <- c(lines_abstract, "\\begin{itemize}")
         for (i in 1:nrow(speakers)) {
           p <- speakers[i, ]
@@ -314,7 +359,9 @@ for (timeslot in sessions) {
         }
         lines_abstract <- c(lines_abstract, "\\end{itemize}", "")
       }
+      s_num <- s_num + 1
     }
+    
 }
 
 if (write_abstracts) {
@@ -323,31 +370,31 @@ if (write_abstracts) {
     close(f)
 }
 
-# ## Posters
-# df_posters <- df[matches$Poster,]
-# n_posters <- nrow(df_posters)
-# 
-# lines_poster <- "\\subsection*{Posters}"
-# lines_poster <- c(lines_poster, "\\begin{itemize}")
-# for (i in 1:n_posters) {
-#     p <- df_posters[i,]
-# 
-#     lines_poster <- c(lines_poster, sprintf("\\item \\textbf{%s}, %s \\\\", p$presenter, p$affiliation))
-#     lines_poster <- c(lines_poster, sprintf("%s \\\\", p$title))
-#     lines_poster <- c(lines_poster, p$authors, "", "")
-# 
-#     intxt <-
-#         readLines(sprintf("bak/save/%s.txt", p$conf)) %>%
-#         gsub("\v", " ", .)
-#     lines_poster <- c(lines_poster, intxt, "")
-# }
-# lines_poster <- c(lines_poster, "\\end{itemize}", "")
-# 
-# if (write_posters) {
-#     f <- file(outposters)
-#     writeLines(lines_poster, f)
-#     close(f)
-# }
+## Posters
+df_posters <- df[matches$Poster,]
+n_posters <- nrow(df_posters)
+df_posters[which(df_posters$presenter=="John J Ragland II"), ]$presenter <- "John J Ragland"
+df_posters <- df_posters %>% arrange(gsub(".*\\s", "", presenter))
+df_posters[which(df_posters$presenter=="John J Ragland"), ]$presenter <- "John J Ragland II"
+
+lines_poster <- ""
+lines_poster <- c(lines_poster, "\\begin{enumerate}")
+for (i in 1:n_posters) {
+    p <- df_posters[i,]
+    
+    lines_poster <- c(lines_poster, sprintf("\\item \\textbf{%s}, %s \\\\", 
+                                            capitalizeName(p$presenter), p$affiliation)
+                      )
+    lines_poster <- c(lines_poster, sprintf("%s", capitalize(toTitleCase(p$title))))
+    # lines_poster <- c(lines_poster, sprintf("\\emph{%s}", capitalize(escape_str(p$authorlist)), ""))
+}
+lines_poster <- c(lines_poster, "\\end{enumerate}", "")
+
+if (write_posters) {
+    f <- file(outposters)
+    writeLines(lines_poster, f)
+    close(f)
+}
 # 
 # save(sessions, morning, afternoon, schedule, file = "parsed.Rdata")
 
