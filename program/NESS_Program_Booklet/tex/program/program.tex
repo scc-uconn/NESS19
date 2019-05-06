@@ -49,7 +49,7 @@
 
 \clearpage
 
-\includepdf[pages={1}, pagecommand={}]{ness2019cover.pdf}
+\includepdf[pages={1}]{ness2019cover.pdf}
 % \begin{center}
 %   \includegraphics{ness2019cover.jpg}
 % \end{center}
@@ -256,7 +256,15 @@ Kathy Ziff (Travelers)
 \addcontentsline{toc}{section}{Abstracts of Invited Papers}
 \input{out/abstracts.tex}
 
+\clearpage
 
+\twocolumn[
+\phantomsection
+\centering {\bf\Huge Abstracts of Posters}
+\bigskip
+]
+\addcontentsline{toc}{section}{Abstracts of Posters}
+\input{out/poster-abstracts.tex}
 
 % \newpage
 

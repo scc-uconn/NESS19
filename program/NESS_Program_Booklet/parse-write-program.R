@@ -1,12 +1,14 @@
 write_detailed_program <- TRUE
 write_abstracts <- TRUE
 write_posters <- TRUE
+write_posters_abs <- TRUE
 write_participants <- TRUE
 
 outdir <- "tex/program/out"
 outprogram <- file.path(outdir, "detailed-program.tex")
 outabstracts <- file.path(outdir, "abstracts.tex")
 outposters <- file.path(outdir, "posters.tex")
+outposters_abs <- file.path(outdir, "poster-abstracts.tex")
 outparticipants <- file.path(outdir, "participants.tex")
 
 library(magrittr)
@@ -25,6 +27,8 @@ capitalizeName <- function(s) {
         gsub("(^|[[:space:]])([[:alpha:]])", "\\1\\U\\2", ., perl=TRUE) %>%
         gsub("De ", "de ", .) %>% 
         gsub("Eric Mick, Scd", "Eric Mick, ScD", ., fixed = TRUE) %>%
+        gsub("Thomas Mcandrew", "Thomas McAndrew", ., fixed = TRUE) %>%
+        gsub("Enrique Ter Horst", "Enrique ter Horst", ., fixed = TRUE) %>%
         gsub("John J Ragland Ii", "John J Ragland II", ., fixed = TRUE)
 }
 
@@ -395,6 +399,29 @@ if (write_posters) {
     writeLines(lines_poster, f)
     close(f)
 }
+
+## poster abstract
+
+lines_poster_abs <- ""
+lines_poster_abs <- c(lines_poster_abs, "\\begin{enumerate}")
+for (i in 1:n_posters) {
+  p <- df_posters[i,]
+  
+  lines_poster_abs <- c(lines_poster_abs, sprintf("\\item \\textbf{%s}, %s \\\\", 
+                                          capitalizeName(p$presenter), p$affiliation)
+  )
+  lines_poster_abs <- c(lines_poster_abs, sprintf("%s", capitalize(toTitleCase(p$title))), "")
+  lines_poster_abs <- c(lines_poster_abs, sprintf("\\emph{\\footnotesize %s}", capitalize(escape_str(p$authorlist))), "")
+  lines_poster_abs <- c(lines_poster_abs, escape_text(p$abstracttext), "")
+}
+lines_poster_abs <- c(lines_poster_abs, "\\end{enumerate}", "")
+
+if (write_posters_abs) {
+  f <- file(outposters_abs)
+  writeLines(lines_poster_abs, f)
+  close(f)
+}
+
 # 
 # save(sessions, morning, afternoon, schedule, file = "parsed.Rdata")
 
@@ -416,4 +443,8 @@ if (write_participants) {
     f <-  file(outparticipants)
     writeLines(participants, f, sep = "\\\\\n")
     close(f)
+}
+
+getid <- function(name) {
+  df_posters$id[which(toupper(df_posters$presenter) == toupper(name))]
 }
