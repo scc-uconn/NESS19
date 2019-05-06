@@ -29,6 +29,7 @@
 \setlist[enumerate]{leftmargin=*, topsep=0pt,itemsep=2pt,partopsep=0pt,parsep=0pt, before=\vspace{-8pt}, after=\vspace{-3pt}}
 \setitemize{leftmargin=*, noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
 
+
 % lines around section title
 \usepackage{titlesec}
 \titleformat{\subsection}[block]
@@ -46,8 +47,7 @@
 
 \begin{document}
 
-\hspace{0pt}
-\vfill
+\clearpage
 
 \includepdf[pages={1}, pagecommand={}]{ness2019cover.pdf}
 % \begin{center}
@@ -55,8 +55,6 @@
 % \end{center}
 \addcontentsline{toc}{section}{Cover}
 \thispagestyle{empty}
-
-\vfill
 
 \clearpage
 
@@ -282,7 +280,7 @@ Kathy Ziff (Travelers)
 \onecolumn
 \includegraphics[width=\textwidth]{travelers.pdf}
 \hfill
-\includegraphics[width=\textwidth]{liberty.pdf}
+\includegraphics[width=\textwidth, viewport=0.54in 0.3in 8.25in 5.8in, clip=true]{liberty.pdf}
 
 \clearpage
 \includegraphics[page=1, width=\textwidth]{hsb.pdf}
