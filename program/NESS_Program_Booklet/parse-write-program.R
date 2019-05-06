@@ -49,8 +49,8 @@ escape_text <- function(s) {
     gsub("\f", "", .) %>% 
     gsub("qualitative factors}", "qualitative factors", .) %>% 
     ## capture the invalid strings
-    gsub("\\[", "$[", .) %>%
-    gsub("\\]", "]$", .) %>%
+    # gsub("\\[", "$[", .) %>%
+    # gsub("\\]", "]$", .) %>%
     gsub("$$", "$", ., fixed = TRUE) %>% 
     gsub("\016", "", .) %>% det_math %>%
     gsub("π", "$\\\\pi$", .) %>%
