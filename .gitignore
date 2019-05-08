@@ -9,4 +9,5 @@ program/NESS_Program_Booklet/tex/program/program.pdf
 *.out
 *.toc
 *.Rhistory
+*.synctex.gz
 program/NESS_Program_Booklet/tex/program/image/
