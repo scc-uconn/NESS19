@@ -376,13 +376,15 @@ if (write_abstracts) {
 
 ## Posters
 df_posters <- df[matches$Poster,]
-n_posters <- nrow(df_posters)
 df_posters[which(df_posters$presenter=="John J Ragland II"), ]$presenter <- "John J Ragland"
-df_posters <- df_posters %>% arrange(gsub(".*\\s", "", presenter))
+poster_order <- read_csv("bak/poster_order.csv")
+df_posters <- df_posters[match(poster_order$id, df_posters$id), ]
+# df_posters <- df_posters %>% arrange(gsub(".*\\s", "", presenter))
 df_posters[which(df_posters$presenter=="John J Ragland"), ]$presenter <- "John J Ragland II"
 
 lines_poster <- ""
 lines_poster <- c(lines_poster, "\\begin{enumerate}")
+n_posters <- nrow(df_posters)
 for (i in 1:n_posters) {
     p <- df_posters[i,]
     
