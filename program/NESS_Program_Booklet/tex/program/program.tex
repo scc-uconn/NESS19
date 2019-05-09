@@ -64,7 +64,7 @@ clip=true]{ness2019cover.pdf}
 \phantomsection
 \begin{center}
   {\bf\Huge Hilton Hartford\\[4pt] Conference Rooms/Floor Map}
-\end{center} 
+\end{center}
 \bigskip
 \addcontentsline{toc}{section}{Hilton Hartford Conference Rooms/Floor Map}
 
@@ -103,20 +103,20 @@ Ballroom on 3rd floor.
 \clearpage
 
 
-\twocolumn
-
 \twocolumn[
+\phantomsection
 \begin{center}
   {\bf\Huge Conference Committees}
   \bigskip
 \end{center}
-
 ]
 \addcontentsline{toc}{section}{Conference Committees}
 
-
+{\setlength{\parskip}{0pt}
+\titleformat{\subsection}[block]
+{\vspace{-8pt}\titlerule\addvspace{1pt}\normalfont\fontsize{10}{16}\bfseries}
+{}{0pt}{}[\vspace{1pt}\titlerule]
 \subsection*{Local Organizing Committee}
-
 Jun Yan (Chair), University of Connecticut
 
 Haim Bar, University of Connecticut
@@ -316,11 +316,12 @@ Jian Zou, Worcester Polytechnic Institute
 \subsection*{Technical Support}
 
 Yan Li, University of Connecticut
-
+}
 \clearpage
 
 \onecolumn
 
+\phantomsection
 \addcontentsline{toc}{section}{2020 New England Statistics Symposium}
 \includepdf[pages={1}]{2020portrait.pdf}
 
