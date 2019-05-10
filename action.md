@@ -4,7 +4,7 @@
 
 # Packets
 
-~ 400
+~ 450
 USB drive
 Bag/Pen (Haiying design)
 Sponsors' sheets (HSB, Liberty, Travelers)
