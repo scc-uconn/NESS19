@@ -28,7 +28,7 @@
 # Venue
 
 + It's quite possible that holding the event at the Hilton contributed to the large number of participants.
-+ Overall, their staff were very helpful (Mike, Wendy, etc.)
++ Overall, their staff were very helpful (Mike, Emma, etc.)
 + The place was too small, though. Some lecture rooms were very small, and even the larger ones (Ethan Allen) did not have as many chairs as the theoretical capacity. In some cases, not even close.
 + We had to cap the registration, which is OK, but it will be better to announce it in advance next time, that due to capacity constraints there is a limit on the number of participants.
 + I think we will need to have fewer sessions taking place in parallel. 11 may have been too much.
