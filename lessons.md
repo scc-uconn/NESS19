@@ -30,9 +30,15 @@
 + It's quite possible that holding the event at the Hilton contributed to the large number of participants.
 + Overall, their staff were very helpful (Mike, Emma, etc.)
 + The place was too small, though. Some lecture rooms were very small, and even the larger ones (Ethan Allen) did not have as many chairs as the theoretical capacity. In some cases, not even close.
++ Room blocking should be negotiated long in advance.
++ Food should be booked with 60\% of the number of registrants. Otherwise, big deficit.
 + We had to cap the registration, which is OK, but it will be better to announce it in advance next time, that due to capacity constraints there is a limit on the number of participants.
 + I think we will need to have fewer sessions taking place in parallel. 11 may have been too much.
 + We should also accept posters based on the location's capacity. I think some were placed in remote corners, which is not ideal
 + The AV worked well. However, it was very expensive, and we had to provide the laptops. If NESS becomes even bigger, then this may not work. 
-+ We were not properly pepared for onsite registration.
++ We were not properly prepared for onsite registration.
 + We saw that it was really essential to read the contract carefully - some of the menu options were much too expensive, for example.
+
+# Dates
+
++ SuMTu will be a good choice
